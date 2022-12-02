@@ -667,13 +667,16 @@
       "p": "HD Graphics P530"
     },
     {
-      "p": "Iris(TM) Graphics 5$"
+      "p": "Iris Graphics 5$"
     },
     {
-      "p": "Iris(TM) Plus Graphics 6$"
+      "p": "Iris Plus Graphics"
     },
     {
-      "p": "Iris(TM) Pro Graphics 5200"
+      "p": "Iris Plus Graphics 6$"
+    },
+    {
+      "p": "Iris Pro Graphics 5200"
     },
     {
       "p": "UHD Graphics 6$"

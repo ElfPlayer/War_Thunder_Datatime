@@ -25721,6 +25721,14 @@
   },
   {
     "unlockable": {
+      "id": "title_cool_hand",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
       "id": "title_black_luxury",
       "type": "title",
       "chapter": "title",
@@ -101126,6 +101134,1539 @@
             "type": "timeRange",
             "beginDate": "2022-11-01 11:00:00",
             "endDate": "2022-11-04 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_cardicon_gregory_boyington_trophy_gift",
+      "locDescId": "2022_12_cardicon_gregory_boyington_trophy_gift/desc",
+      "userLogId": "cardicon_gregory_boyington_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 1999,
+      "visibleDays": 1.0,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "typeLocID": "conditions/completedTasks"
+        },
+        {
+          "num": 8
+        },
+        {
+          "unlock": "2022_12_01_history_pages_trophy_gift"
+        },
+        {
+          "unlock": "2022_12_05_history_pages_trophy_gift"
+        },
+        {
+          "unlock": "2022_12_09_history_pages_trophy_gift"
+        },
+        {
+          "unlock": "2022_12_12_history_pages_trophy_gift"
+        },
+        {
+          "unlock": "2022_12_16_history_pages_trophy_gift"
+        },
+        {
+          "unlock": "2022_12_19_history_pages_trophy_gift"
+        },
+        {
+          "unlock": "2022_12_23_history_pages_trophy_gift"
+        },
+        {
+          "unlock": "2022_12_27_history_pages_trophy_gift"
+        },
+        {
+          "condition": {
+            "type": "char_time_range",
+            "beginDate": "2022-12-01 11:00:00",
+            "endDate": "2023-01-03 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_27_history_pages_trophy_gift",
+      "locDescId": "2022_12_27_history_pages_trophy_gift/desc",
+      "userLogId": "2021_12_16_memorable_date_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 299,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "shouldMarkUnits": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "playerUnit"
+            },
+            {
+              "inSession": true
+            },
+            {
+              "inSessionAnd": false
+            },
+            {
+              "class": "us_m5a1_stuart"
+            },
+            {
+              "class": "us_m5a1_stuart_td"
+            },
+            {
+              "class": "us_m10"
+            },
+            {
+              "class": "us_m18_hellcat"
+            },
+            {
+              "class": "us_m18_hellcat_black_cat"
+            },
+            {
+              "class": "us_m36"
+            },
+            {
+              "class": "us_m4a3e2_sherman_jumbo"
+            },
+            {
+              "class": "us_m4a3e2_sherman_jumbo_cobra_king"
+            },
+            {
+              "class": "us_m4a3e2_76w_sherman_jumbo"
+            },
+            {
+              "class": "us_m4a2_sherman"
+            },
+            {
+              "class": "us_m4a3_105_sherman"
+            },
+            {
+              "class": "us_m4_sherman_calliope"
+            },
+            {
+              "class": "us_m4a3e8_76w_sherman"
+            },
+            {
+              "class": "us_m4a2_76w_sherman"
+            },
+            {
+              "class": "us_m8a1"
+            },
+            {
+              "class": "us_m8_greyhound"
+            },
+            {
+              "class": "p-47d"
+            },
+            {
+              "class": "p-47d-28"
+            },
+            {
+              "class": "p-47n-15"
+            },
+            {
+              "class": "p-51d-5"
+            },
+            {
+              "class": "p-51d-20-na"
+            },
+            {
+              "class": "a-26b_10"
+            },
+            {
+              "class": "a-26b"
+            },
+            {
+              "class": "germ_sdkfz_234_1"
+            },
+            {
+              "class": "germ_sdkfz_234_2"
+            },
+            {
+              "class": "germ_sdkfz_234_2_td"
+            },
+            {
+              "class": "germ_sdkfz_234_3"
+            },
+            {
+              "class": "germ_sdkfz_234_4"
+            },
+            {
+              "class": "germ_sdkfz_251_21"
+            },
+            {
+              "class": "germ_flakpanzer_IV_Wirbelwind"
+            },
+            {
+              "class": "germ_panzerwerfer_42"
+            },
+            {
+              "class": "germ_stug_III_ausf_G"
+            },
+            {
+              "class": "germ_jgdpz_38t"
+            },
+            {
+              "class": "germ_jgdpz_IV_L48"
+            },
+            {
+              "class": "germ_pz_IV_L70"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_G"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_H"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_J"
+            },
+            {
+              "class": "germ_panzerbefelhswagen_IV_ausf_J"
+            },
+            {
+              "class": "germ_pzkpfw_VI_ausf_b_tiger_IIp"
+            },
+            {
+              "class": "germ_pzkpfw_VI_ausf_b_tiger_IIh"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_d_panther"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_a_panther"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_g_panther"
+            },
+            {
+              "class": "germ_panzerjager_panther"
+            },
+            {
+              "class": "germ_panzerbefelhswagen_jagdpanther"
+            },
+            {
+              "class": "germ_panzerjager_tiger"
+            },
+            {
+              "class": "germ_sturmmorser_sturmtiger"
+            },
+            {
+              "class": "bf-109g-6"
+            },
+            {
+              "class": "bf-109g-14"
+            },
+            {
+              "class": "bf-109g-10"
+            },
+            {
+              "class": "fw-190a-5_cannons"
+            },
+            {
+              "class": "fw-190a-5"
+            },
+            {
+              "class": "fw-190a-5_u2"
+            },
+            {
+              "class": "fw-190a-8"
+            },
+            {
+              "class": "fw-190d-9"
+            },
+            {
+              "class": "fw-190f-8"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-27 11:00:00",
+            "endDate": "2022-12-31 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_23_history_pages_trophy_gift",
+      "locDescId": "2022_12_23_history_pages_trophy_gift/desc",
+      "userLogId": "2022_02_02_memorable_date_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 299,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "shouldMarkUnits": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "playerUnit"
+            },
+            {
+              "inSession": true
+            },
+            {
+              "inSessionAnd": false
+            },
+            {
+              "class": "ussr_t_70_1942"
+            },
+            {
+              "class": "ussr_t_34_1941"
+            },
+            {
+              "class": "ussr_t_34_1942"
+            },
+            {
+              "class": "ussr_kv_1_zis_5"
+            },
+            {
+              "class": "ussr_kv_1s"
+            },
+            {
+              "class": "ussr_su_122"
+            },
+            {
+              "class": "il_2_37_1943"
+            },
+            {
+              "class": "il_2m_1943"
+            },
+            {
+              "class": "il-2m_mstitel"
+            },
+            {
+              "class": "p-39k_1"
+            },
+            {
+              "class": "yak-7b"
+            },
+            {
+              "class": "yak-1b"
+            },
+            {
+              "class": "yak-9"
+            },
+            {
+              "class": "la-5_type37_early"
+            },
+            {
+              "class": "yak-9t"
+            },
+            {
+              "class": "pe-2-83"
+            },
+            {
+              "class": "pe-2-205"
+            },
+            {
+              "class": "germ_pzkpfw_III_ausf_L"
+            },
+            {
+              "class": "germ_pzkpfw_III_ausf_M"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_F2"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_G"
+            },
+            {
+              "class": "germ_stug_III_ausf_F"
+            },
+            {
+              "class": "germ_stug_III_ausf_G"
+            },
+            {
+              "class": "germ_pzkpfw_38t_Marder_III"
+            },
+            {
+              "class": "germ_pzkpfw_38t_Marder_III_ausf_H"
+            },
+            {
+              "class": "germ_panzerjager_nashorn"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_d_panther"
+            },
+            {
+              "class": "germ_pzkpfw_VI_ausf_h1_tiger"
+            },
+            {
+              "class": "germ_pzkpfw_VI_ausf_h1_tiger_animal_version"
+            },
+            {
+              "class": "germ_t_34_747"
+            },
+            {
+              "class": "bf-109g-6"
+            },
+            {
+              "class": "fw-190a-5_cannons"
+            },
+            {
+              "class": "ju-87g_1"
+            },
+            {
+              "class": "ju-87g_2"
+            },
+            {
+              "class": "hs-129b-2"
+            },
+            {
+              "class": "ju-87d-3"
+            },
+            {
+              "class": "ju-87d-5"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-23 11:00:00",
+            "endDate": "2022-12-26 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_19_history_pages_trophy_gift",
+      "locDescId": "2022_12_19_history_pages_trophy_gift/desc",
+      "userLogId": "2021_12_07_memorable_date_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 299,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "shouldMarkUnits": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "playerUnit"
+            },
+            {
+              "inSession": true
+            },
+            {
+              "inSessionAnd": false
+            },
+            {
+              "class": "p-40c"
+            },
+            {
+              "class": "p-40e"
+            },
+            {
+              "class": "p-40c_china"
+            },
+            {
+              "class": "p-40e_china"
+            },
+            {
+              "class": "p-40e_ussr"
+            },
+            {
+              "class": "p-40f-5_france_ep"
+            },
+            {
+              "class": "p-40e_td"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-19 11:00:00",
+            "endDate": "2022-12-22 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_16_history_pages_trophy_gift",
+      "locDescId": "2022_12_16_history_pages_trophy_gift/desc",
+      "userLogId": "2021_12_16_memorable_date_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 299,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "shouldMarkUnits": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "playerUnit"
+            },
+            {
+              "inSession": true
+            },
+            {
+              "inSessionAnd": false
+            },
+            {
+              "class": "us_m5a1_stuart"
+            },
+            {
+              "class": "us_m5a1_stuart_td"
+            },
+            {
+              "class": "us_m10"
+            },
+            {
+              "class": "us_m18_hellcat"
+            },
+            {
+              "class": "us_m18_hellcat_black_cat"
+            },
+            {
+              "class": "us_m36"
+            },
+            {
+              "class": "us_m4a3e2_sherman_jumbo"
+            },
+            {
+              "class": "us_m4a3e2_sherman_jumbo_cobra_king"
+            },
+            {
+              "class": "us_m4a3e2_76w_sherman_jumbo"
+            },
+            {
+              "class": "us_m4a2_sherman"
+            },
+            {
+              "class": "us_m4a3_105_sherman"
+            },
+            {
+              "class": "us_m4_sherman_calliope"
+            },
+            {
+              "class": "us_m4a3e8_76w_sherman"
+            },
+            {
+              "class": "us_m4a2_76w_sherman"
+            },
+            {
+              "class": "us_m8a1"
+            },
+            {
+              "class": "us_m8_greyhound"
+            },
+            {
+              "class": "p-47d"
+            },
+            {
+              "class": "p-47d-28"
+            },
+            {
+              "class": "p-47n-15"
+            },
+            {
+              "class": "p-51d-5"
+            },
+            {
+              "class": "p-51d-20-na"
+            },
+            {
+              "class": "a-26b_10"
+            },
+            {
+              "class": "a-26b"
+            },
+            {
+              "class": "germ_sdkfz_234_1"
+            },
+            {
+              "class": "germ_sdkfz_234_2"
+            },
+            {
+              "class": "germ_sdkfz_234_2_td"
+            },
+            {
+              "class": "germ_sdkfz_234_3"
+            },
+            {
+              "class": "germ_sdkfz_234_4"
+            },
+            {
+              "class": "germ_sdkfz_251_21"
+            },
+            {
+              "class": "germ_flakpanzer_IV_Wirbelwind"
+            },
+            {
+              "class": "germ_panzerwerfer_42"
+            },
+            {
+              "class": "germ_stug_III_ausf_G"
+            },
+            {
+              "class": "germ_jgdpz_38t"
+            },
+            {
+              "class": "germ_jgdpz_IV_L48"
+            },
+            {
+              "class": "germ_pz_IV_L70"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_G"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_H"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_J"
+            },
+            {
+              "class": "germ_panzerbefelhswagen_IV_ausf_J"
+            },
+            {
+              "class": "germ_pzkpfw_VI_ausf_b_tiger_IIp"
+            },
+            {
+              "class": "germ_pzkpfw_VI_ausf_b_tiger_IIh"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_d_panther"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_a_panther"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_g_panther"
+            },
+            {
+              "class": "germ_pzkpfw_V_ersatz_m10"
+            },
+            {
+              "class": "germ_panzerjager_panther"
+            },
+            {
+              "class": "germ_panzerbefelhswagen_jagdpanther"
+            },
+            {
+              "class": "germ_sturmmorser_sturmtiger"
+            },
+            {
+              "class": "bf-109g-6"
+            },
+            {
+              "class": "bf-109g-14"
+            },
+            {
+              "class": "bf-109g-10"
+            },
+            {
+              "class": "fw-190a-5_cannons"
+            },
+            {
+              "class": "fw-190a-5"
+            },
+            {
+              "class": "fw-190a-5_u2"
+            },
+            {
+              "class": "fw-190a-8"
+            },
+            {
+              "class": "fw-190d-9"
+            },
+            {
+              "class": "fw-190f-8"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-16 11:00:00",
+            "endDate": "2022-12-19 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_12_history_pages_trophy_gift",
+      "locDescId": "2022_12_12_history_pages_trophy_gift/desc",
+      "userLogId": "2022_02_02_memorable_date_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 299,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "shouldMarkUnits": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "playerUnit"
+            },
+            {
+              "inSession": true
+            },
+            {
+              "inSessionAnd": false
+            },
+            {
+              "class": "ussr_t_70_1942"
+            },
+            {
+              "class": "ussr_gaz_mm_72k"
+            },
+            {
+              "class": "ussr_t_34_1941"
+            },
+            {
+              "class": "ussr_t_34_1941_cast_turret"
+            },
+            {
+              "class": "ussr_t_34_1942"
+            },
+            {
+              "class": "ussr_t_34E_STZ"
+            },
+            {
+              "class": "ussr_m3c"
+            },
+            {
+              "class": "ussr_bm_13n"
+            },
+            {
+              "class": "ussr_bm_8_24"
+            },
+            {
+              "class": "ussr_kv_1s"
+            },
+            {
+              "class": "ussr_kv_1_L_11"
+            },
+            {
+              "class": "il-2i"
+            },
+            {
+              "class": "il_2_1941"
+            },
+            {
+              "class": "yak-1b"
+            },
+            {
+              "class": "la-5_type37_early"
+            },
+            {
+              "class": "yak-9"
+            },
+            {
+              "class": "germ_sdkfz_6_2_flak36"
+            },
+            {
+              "class": "germ_pzkpfw_III_ausf_L"
+            },
+            {
+              "class": "germ_stug_III_ausf_F"
+            },
+            {
+              "class": "germ_panzerjager_1"
+            },
+            {
+              "class": "germ_pzkpfw_38t_Marder_III"
+            },
+            {
+              "class": "germ_pzkpfw_35t"
+            },
+            {
+              "class": "germ_pzkpfw_38t_ausf_F"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_F2"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_G"
+            },
+            {
+              "class": "bf-109f-4"
+            },
+            {
+              "class": "bf-109g-2"
+            },
+            {
+              "class": "bf-109g-2_romania"
+            },
+            {
+              "class": "ju-87b-2"
+            },
+            {
+              "class": "ju-87d-3"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-12 11:00:00",
+            "endDate": "2022-12-15 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_09_history_pages_trophy_gift",
+      "locDescId": "2022_12_09_history_pages_trophy_gift/desc",
+      "userLogId": "2021_12_07_memorable_date_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 299,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "shouldMarkUnits": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "playerUnit"
+            },
+            {
+              "inSession": true
+            },
+            {
+              "inSessionAnd": false
+            },
+            {
+              "class": "fiat_cr42_italy"
+            },
+            {
+              "class": "cr_32"
+            },
+            {
+              "class": "fiat_cr42_marcolin_italy"
+            },
+            {
+              "class": "cr_32_bis"
+            },
+            {
+              "class": "fiat_g50_seria2_italy"
+            },
+            {
+              "class": "sm_79_1939_italy"
+            },
+            {
+              "class": "it_l3_cc"
+            },
+            {
+              "class": "it_m11_39"
+            },
+            {
+              "class": "it_m13_40_serie_1"
+            },
+            {
+              "class": "it_m13_40_serie_2"
+            },
+            {
+              "class": "it_m13_40_serie_3"
+            },
+            {
+              "class": "gladiator_mk2"
+            },
+            {
+              "class": "gladiator_mk2_navy"
+            },
+            {
+              "class": "gladiator_mk2_tuck"
+            },
+            {
+              "class": "hurricane_mk1"
+            },
+            {
+              "class": "blenheim_mkiv"
+            },
+            {
+              "class": "uk_a_13_mk1"
+            },
+            {
+              "class": "uk_a_13_mk2"
+            },
+            {
+              "class": "uk_a_12_mk_2_matilda_2"
+            },
+            {
+              "class": "uk_a_13_mk1_3rd_rtr"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-09 11:00:00",
+            "endDate": "2022-12-12 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_05_history_pages_trophy_gift",
+      "locDescId": "2022_12_05_history_pages_trophy_gift/desc",
+      "userLogId": "2021_12_26_memorable_date_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 299,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "shouldMarkUnits": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "playerUnit"
+            },
+            {
+              "inSession": true
+            },
+            {
+              "inSessionAnd": false
+            },
+            {
+              "class": "ussr_t_34_1941_l_11"
+            },
+            {
+              "class": "ussr_t_34_1941"
+            },
+            {
+              "class": "ussr_t_28"
+            },
+            {
+              "class": "ussr_t_34_1941_57"
+            },
+            {
+              "class": "ussr_gaz_4m"
+            },
+            {
+              "class": "ussr_t_26_1940"
+            },
+            {
+              "class": "ussr_kv_1_L_11"
+            },
+            {
+              "class": "ussr_t_60_1941"
+            },
+            {
+              "class": "ussr_t_26_1940_1st_GvTBr"
+            },
+            {
+              "class": "ussr_t_34_1941_cast_turret"
+            },
+            {
+              "class": "ussr_zis_30"
+            },
+            {
+              "class": "mig_3_series_1_15_bk_pod"
+            },
+            {
+              "class": "lagg-3-8"
+            },
+            {
+              "class": "lagg-3-11"
+            },
+            {
+              "class": "il_2_1941"
+            },
+            {
+              "class": "pe-3"
+            },
+            {
+              "class": "i-153_m62"
+            },
+            {
+              "class": "i-153_m62_zhukovskiy"
+            },
+            {
+              "class": "i-16_type24"
+            },
+            {
+              "class": "i-16_type18"
+            },
+            {
+              "class": "i-16_type28"
+            },
+            {
+              "class": "pe-2-1"
+            },
+            {
+              "class": "yak-1_early"
+            },
+            {
+              "class": "germ_pzkpfw_II_ausf_C_DAK"
+            },
+            {
+              "class": "germ_pzkpfw_II_ausf_C"
+            },
+            {
+              "class": "germ_pzkpfw_II_ausf_C_td"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_E"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_F"
+            },
+            {
+              "class": "germ_pzkpfw_III_ausf_F"
+            },
+            {
+              "class": "germ_sturmpanzer_II"
+            },
+            {
+              "class": "germ_stug_III_ausf_A"
+            },
+            {
+              "class": "ju-87r-2"
+            },
+            {
+              "class": "ju-87r-2_snake"
+            },
+            {
+              "class": "bf-109e-3"
+            },
+            {
+              "class": "bf-109f-4"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-05 11:00:00",
+            "endDate": "2022-12-08 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "2022_12_01_history_pages_trophy_gift",
+      "locDescId": "2022_12_01_history_pages_trophy_gift/desc",
+      "userLogId": "2022_02_08_memorable_date_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "history_pages",
+      "group": "december",
+      "costGold": 299,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "shouldMarkUnits": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "playerUnit"
+            },
+            {
+              "inSession": true
+            },
+            {
+              "inSessionAnd": false
+            },
+            {
+              "class": "germ_pzkpfw_III_ausf_L"
+            },
+            {
+              "class": "germ_pzkpfw_III_ausf_M"
+            },
+            {
+              "class": "germ_pzkpfw_III_ausf_N"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_F2"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_G"
+            },
+            {
+              "class": "germ_jgdpz_IV_L48"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_G"
+            },
+            {
+              "class": "germ_pzkpfw_IV_ausf_H"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_a_panther"
+            },
+            {
+              "class": "germ_pzkpfw_V_ausf_d_panther"
+            },
+            {
+              "class": "germ_pzkpfw_VI_ausf_h1_tiger"
+            },
+            {
+              "class": "germ_pzkpfw_VI_ausf_h1_tiger_animal_version"
+            },
+            {
+              "class": "bf-109g-6"
+            },
+            {
+              "class": "fw-190a-5_cannons"
+            },
+            {
+              "class": "me-410a-1"
+            },
+            {
+              "class": "uk_sherman_II"
+            },
+            {
+              "class": "uk_daimler_mk_2"
+            },
+            {
+              "class": "uk_mk1_grant"
+            },
+            {
+              "class": "uk_17_pdr_m10_achilles"
+            },
+            {
+              "class": "uk_a_22b_mk_3_churchill_1942"
+            },
+            {
+              "class": "uk_m3a1_stuart"
+            },
+            {
+              "class": "spitfire_mk5b"
+            },
+            {
+              "class": "spitfire_mk5c"
+            },
+            {
+              "class": "beaufighter_mk6c"
+            },
+            {
+              "class": "hudson_mk_v"
+            },
+            {
+              "class": "intruder_mk_1"
+            },
+            {
+              "class": "us_m3_lee"
+            },
+            {
+              "class": "us_m4a1_1942_sherman"
+            },
+            {
+              "class": "us_mk1_grant"
+            },
+            {
+              "class": "us_halftrack_m3_75mm_gmc"
+            },
+            {
+              "class": "us_m10"
+            },
+            {
+              "class": "us_m18_hellcat"
+            },
+            {
+              "class": "us_m18_hellcat_black_cat"
+            },
+            {
+              "class": "us_halftrack_m13"
+            },
+            {
+              "class": "p-51_a-36"
+            },
+            {
+              "class": "a-20g"
+            },
+            {
+              "class": "p-400"
+            },
+            {
+              "class": "p-40e"
+            },
+            {
+              "class": "p-51_mk1a_usaaf"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-01 11:00:00",
+            "endDate": "2022-12-04 11:30:00"
           }
         }
       ]

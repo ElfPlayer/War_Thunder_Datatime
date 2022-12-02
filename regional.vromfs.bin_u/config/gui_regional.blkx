@@ -6,7 +6,7 @@
       "name": "The Steam Awards - Vote for us!",
       "name_ru": "The Steam Awards: отдай свой голос за нас!",
       "desc": "War Thunder has recently hit its 10 year anniversary and has been around for a long time now!\\n\\nHave you been with us for a long time? Went with us through all the ups and downs, and still appreciate and love the game? Have you spent hundreds or thousands of hours playing War Thunder?\\n\\nNominate us in the Steam Awards and vote for us in the “Labor of Love” category!",
-      "desc_ru": "Совсем недавно War Thunder исполнилось 10 лет, и всё это время она развивается и работает для вас.\\n\\nНеважно, провели ли вы сотни или тысячи часов, играя в War Thunder, или только начали постигать секреты военной науки - главное, что вы с нами!\\n\\nНе забудьте номинировать нас на Steam Awards!",
+      "desc_ru": "Совсем недавно War Thunder исполнилось 10 лет, и всё это время игра развивается и работает для вас.\\n\\nНеважно, провели ли вы сотни или тысячи часов, играя в War Thunder, или только начали постигать секреты военной науки - главное, что вы с нами!\\n\\nНе забудьте номинировать нас на Steam Awards!",
       "image": "https://static.warthunder.com/upload/image/Promo/steam_awards_2022.jpg?P1",
       "link": "https://steamcommunity.com/games/236390/announcements/detail/3507770137584100691",
       "imageRatio": 0.56,
@@ -17,7 +17,7 @@
       "reqUnlock": "2022_11_steam_award_popup_unlock",
       "showForLangs": "English;Russian",
       "startTime": "2022-11-29 00:00:00",
-      "endTime": "2022-12-06 00:00:00",
+      "endTime": "2022-11-30 00:00:00",
       "forceExternalBrowser": true
     },
     "2022_il_m_51_w_popup": {
@@ -1267,6 +1267,16 @@
       "startTime": "2022-06-15 00:00",
       "endTime": "2022-06-30 10:00",
       "reqFeature": "ps4_xboxOne_only_events"
+    },
+    "2022_12_01_packs_xbox_promo": {
+      "aspect_ratio": 2.07,
+      "text": "Premium Vehicles",
+      "text_ru": "Премиумные наборы",
+      "image": "https://static.warthunder.com/upload/image/Promo/wt10_tanks_560h270.jpg?P1",
+      "action": "online_shop; bundle",
+      "startTime": "2022-12-01 12:00",
+      "endTime": "2022-12-31 12:00",
+      "reqFeature": "xboxOneAccess"
     },
     "07_06_22_sale_xbox_promo": {
       "aspect_ratio": 2.07,
