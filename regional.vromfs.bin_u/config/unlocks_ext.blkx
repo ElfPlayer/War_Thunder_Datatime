@@ -25163,46 +25163,23 @@
           }
         },
         {
-          "condition": [
-            {
-              "type": "char_unlocked"
-            },
-            {
-              "positive": false
-            },
-            {
-              "unlock": "starter_pack_closed_gold_paid"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount15days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount30days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount60days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount90days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount180days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount360days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount365days"
-            },
-            {
-              "unlock": "player_has_vehicles_in_era"
-            }
-          ]
+          "condition": {
+            "type": "char_unlocked",
+            "positive": false,
+            "unlock": "player_has_vehicles_in_era"
+          }
         },
         {
           "condition": {
             "type": "char_player_has_entitlement",
             "entitlement": "DMMAccount",
+            "invertResult": true
+          }
+        },
+        {
+          "condition": {
+            "type": "char_player_has_entitlement",
+            "entitlement": "customerAccount",
             "invertResult": true
           }
         },
@@ -25228,15 +25205,8 @@
         {
           "condition": {
             "type": "playerFirstLogin",
-            "beginDate": "2022-11-12 00:00:00",
+            "beginDate": "2022-11-01 00:00:00",
             "endDate": "2025-01-01 07:00:00"
-          }
-        },
-        {
-          "condition": {
-            "type": "char_time_range",
-            "beginDate": "2020-01-01 07:00:00",
-            "endDate": "2022-01-01 07:00:00"
           }
         }
       ]
@@ -25266,46 +25236,23 @@
           }
         },
         {
-          "condition": [
-            {
-              "type": "char_unlocked"
-            },
-            {
-              "positive": false
-            },
-            {
-              "unlock": "starter_pack_closed_gold_paid"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount15days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount30days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount60days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount90days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount180days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount360days"
-            },
-            {
-              "unlock": "starter_pack_PremiumAccount365days"
-            },
-            {
-              "unlock": "player_has_vehicles_in_era"
-            }
-          ]
+          "condition": {
+            "type": "char_unlocked",
+            "positive": false,
+            "unlock": "player_has_vehicles_in_era"
+          }
         },
         {
           "condition": {
             "type": "char_player_has_entitlement",
             "entitlement": "DMMAccount",
+            "invertResult": true
+          }
+        },
+        {
+          "condition": {
+            "type": "char_player_has_entitlement",
+            "entitlement": "customerAccount",
             "invertResult": true
           }
         },
@@ -25331,15 +25278,8 @@
         {
           "condition": {
             "type": "playerFirstLogin",
-            "beginDate": "2022-11-12 00:00:00",
+            "beginDate": "2022-11-01 00:00:00",
             "endDate": "2025-01-01 07:00:00"
-          }
-        },
-        {
-          "condition": {
-            "type": "char_time_range",
-            "beginDate": "2020-01-01 07:00:00",
-            "endDate": "2022-01-01 07:00:00"
           }
         }
       ]
@@ -102457,6 +102397,9 @@
             },
             {
               "class": "ju-87r-2_snake"
+            },
+            {
+              "class": "ju-87b-2"
             },
             {
               "class": "bf-109e-3"

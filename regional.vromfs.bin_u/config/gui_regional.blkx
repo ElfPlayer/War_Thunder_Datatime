@@ -1064,8 +1064,7 @@
       "viewType": "once",
       "partnerUnlock": "gold1000_48h_starter_pack_unlock",
       "showOverModalObject": true,
-      "partnerUnlockDurationMin": 2820.0,
-      "endTime": "2022-01-01 07:00:00"
+      "partnerUnlockDurationMin": 2820.0
     },
     "gold5000_24h_starter_pack_unlock": {
       "name_ru": "{name}, для вас есть персональное предложение!",
@@ -1105,8 +1104,7 @@
       "viewType": "once",
       "partnerUnlock": "gold5000_24h_starter_pack_unlock",
       "showOverModalObject": true,
-      "partnerUnlockDurationMin": 2820.0,
-      "endTime": "2022-01-01 07:00:00"
+      "partnerUnlockDurationMin": 2820.0
     },
     "email_xbox_binding_popup": {
       "name": "#promo/XBOXAccount_linked",
@@ -1159,29 +1157,14 @@
       "reqFeature": "pc_only_events",
       "forceExternalBrowser": true
     },
-    "2022_main_promo_pc": [
-      {
-        "aspect_ratio": 2.07
-      },
-      {
-        "aspect_ratio": 2.07
-      },
-      {
-        "text": "#unlocks/chapter/history_pages"
-      },
-      {
-        "image": "https://static.warthunder.com/upload/image/Promo/promo_november_22_16c013662f8889242eaf4f018996da4f.jpg?P1"
-      },
-      {
-        "action": "profile; UnlockAchievement; history_pages; november"
-      },
-      {
-        "startTime": "2022-11-01 00:00"
-      },
-      {
-        "endTime": "2022-12-01 11:00"
-      }
-    ],
+    "2022_main_promo_pc": {
+      "aspect_ratio": 2.07,
+      "text": "#unlocks/chapter/history_pages",
+      "image": "https://static.warthunder.com/upload/image/Promo/promo_december_22.jpg?P1",
+      "action": "profile; UnlockAchievement; history_pages; december",
+      "startTime": "2022-12-01 00:00",
+      "endTime": "2023-01-01 11:00"
+    },
     "2022_main_promo_ps4_xboxOne": [
       {
         "aspect_ratio": 2.07
@@ -1273,7 +1256,7 @@
       "text": "Premium Vehicles",
       "text_ru": "Премиумные наборы",
       "image": "https://static.warthunder.com/upload/image/Promo/wt10_tanks_560h270.jpg?P1",
-      "action": "online_shop; bundle",
+      "action": "online_shop",
       "startTime": "2022-12-01 12:00",
       "endTime": "2022-12-31 12:00",
       "reqFeature": "xboxOneAccess"
@@ -1441,8 +1424,7 @@
       "hideAfterMin": 2820.0,
       "partnerUnlockDurationMin": 2820.0,
       "partnerUnlock": "gold1000_48h_starter_pack_unlock",
-      "reqUnlock": "gold1000_48h_starter_pack_unlock",
-      "endTime": "2022-01-01 07:00:00"
+      "reqUnlock": "gold1000_48h_starter_pack_unlock"
     },
     "gold5000_24h_starter_pack_unlock": {
       "color": "#DAAD5C",
@@ -1462,8 +1444,7 @@
       "hideAfterMin": 2820.0,
       "partnerUnlockDurationMin": 2820.0,
       "partnerUnlock": "gold5000_24h_starter_pack_unlock",
-      "reqUnlock": "gold5000_24h_starter_pack_unlock",
-      "endTime": "2022-01-01 07:00:00"
+      "reqUnlock": "gold5000_24h_starter_pack_unlock"
     },
     "world_war_button": {
       "action": "world_war",
