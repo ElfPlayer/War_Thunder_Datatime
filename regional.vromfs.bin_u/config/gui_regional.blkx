@@ -1251,15 +1251,15 @@
       "endTime": "2022-06-30 10:00",
       "reqFeature": "ps4_xboxOne_only_events"
     },
-    "2022_12_01_packs_xbox_promo": {
+    "2022_12_01_packs_xbox_psn_promo": {
       "aspect_ratio": 2.07,
-      "text": "Premium Vehicles",
-      "text_ru": "Премиумные наборы",
+      "text": "Limited offer!",
+      "text_ru": "Ограниченное предложение!",
       "image": "https://static.warthunder.com/upload/image/Promo/wt10_tanks_560h270.jpg?P1",
       "action": "online_shop",
       "startTime": "2022-12-01 12:00",
       "endTime": "2022-12-31 12:00",
-      "reqFeature": "xboxOneAccess"
+      "reqFeature": "ps4_xboxOne_only_events"
     },
     "07_06_22_sale_xbox_promo": {
       "aspect_ratio": 2.07,

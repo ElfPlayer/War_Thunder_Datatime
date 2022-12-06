@@ -25179,6 +25179,20 @@
         {
           "condition": {
             "type": "char_player_has_entitlement",
+            "entitlement": "PSNAccount_linked",
+            "invertResult": true
+          }
+        },
+        {
+          "condition": {
+            "type": "char_player_has_entitlement",
+            "entitlement": "XBOXAccount_linked",
+            "invertResult": true
+          }
+        },
+        {
+          "condition": {
+            "type": "char_player_has_entitlement",
             "entitlement": "customerAccount",
             "invertResult": true
           }
@@ -25246,6 +25260,20 @@
           "condition": {
             "type": "char_player_has_entitlement",
             "entitlement": "DMMAccount",
+            "invertResult": true
+          }
+        },
+        {
+          "condition": {
+            "type": "char_player_has_entitlement",
+            "entitlement": "PSNAccount_linked",
+            "invertResult": true
+          }
+        },
+        {
+          "condition": {
+            "type": "char_player_has_entitlement",
+            "entitlement": "XBOXAccount_linked",
             "invertResult": true
           }
         },
@@ -99817,6 +99845,7 @@
       "chapter": "history_pages",
       "group": "november",
       "costGold": 1999,
+      "hidden": true,
       "visibleDays": 1.0,
       "mode": [
         {
@@ -99874,6 +99903,7 @@
       "costGold": 299,
       "visibleDays": 1.0,
       "visibleDaysAfter": 30.0,
+      "hidden": true,
       "shouldMarkUnits": true,
       "showInDesc": true,
       "mode": [
@@ -100004,6 +100034,7 @@
       "costGold": 299,
       "visibleDays": 1.0,
       "visibleDaysAfter": 30.0,
+      "hidden": true,
       "shouldMarkUnits": true,
       "showInDesc": true,
       "mode": [
@@ -100119,6 +100150,7 @@
       "costGold": 299,
       "visibleDays": 1.0,
       "visibleDaysAfter": 30.0,
+      "hidden": true,
       "shouldMarkUnits": true,
       "showInDesc": true,
       "mode": [
@@ -100288,6 +100320,7 @@
       "costGold": 299,
       "visibleDays": 1.0,
       "visibleDaysAfter": 30.0,
+      "hidden": true,
       "shouldMarkUnits": true,
       "showInDesc": true,
       "mode": [
@@ -100478,6 +100511,7 @@
       "costGold": 299,
       "visibleDays": 1.0,
       "visibleDaysAfter": 30.0,
+      "hidden": true,
       "shouldMarkUnits": true,
       "showInDesc": true,
       "mode": [
@@ -100602,6 +100636,7 @@
       "costGold": 299,
       "visibleDays": 1.0,
       "visibleDaysAfter": 30.0,
+      "hidden": true,
       "shouldMarkUnits": true,
       "showInDesc": true,
       "mode": [
@@ -100792,6 +100827,7 @@
       "costGold": 299,
       "visibleDays": 1.0,
       "visibleDaysAfter": 30.0,
+      "hidden": true,
       "shouldMarkUnits": true,
       "showInDesc": true,
       "mode": [
@@ -100895,6 +100931,7 @@
       "costGold": 299,
       "visibleDays": 1.0,
       "visibleDaysAfter": 30.0,
+      "hidden": true,
       "shouldMarkUnits": true,
       "showInDesc": true,
       "mode": [
