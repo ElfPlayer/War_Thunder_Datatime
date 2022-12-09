@@ -22502,7 +22502,7 @@
           {
             "hostCondition": {
               "type": "battlepassSeason",
-              "season": 7
+              "season": 9
             }
           }
         ]
@@ -25685,6 +25685,30 @@
           }
         }
       ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_silver_swallow",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_lion_cub",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_star_fighter",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -38452,6 +38476,19 @@
       "mode": {
         "type": "char_unit_exist",
         "unit": "ussr_m3c"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "mi_24d_decal_gift",
+      "userLogId": "mi_24d_decal_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "mode": {
+        "type": "char_unit_exist",
+        "unit": "mi_24d"
       }
     }
   },
