@@ -1446,10 +1446,14 @@
       "partnerUnlock": "gold5000_24h_starter_pack_unlock",
       "reqUnlock": "gold5000_24h_starter_pack_unlock"
     },
-    "world_war_button": {
-      "action": "world_war",
-      "text": "#mainmenu/btnWorldwar",
-      "reqFeature": "WorldWar"
+    "2_22_0_X_dev_promo": {
+      "color": "#DAAD5C",
+      "text": "'Apex Predators' Update",
+      "text_ru": "Тестовый сервер «Apex Predators»",
+      "link": "auto_login https://forum.warthunder.com/index.php?/forum/2179-dev-server-war-thunder-apex-predators/",
+      "link_ru": "auto_login https://forum.warthunder.ru/index.php?/forum/1616-testovyi-server-apex-predators/",
+      "startTime": "2022-12-09 00:00:00",
+      "endTime": "2022-10-15 00:00:00"
     },
     "events_mainmenu_button": {
       "color": "#33556126",

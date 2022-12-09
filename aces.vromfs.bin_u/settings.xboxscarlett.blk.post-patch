@@ -1,3 +1,4 @@
+"@delete:dx12" {}
 dx12{
   onlyPreallocatedHeaps:b=no
   preallocHeap { sizeMB:i=1024; }
