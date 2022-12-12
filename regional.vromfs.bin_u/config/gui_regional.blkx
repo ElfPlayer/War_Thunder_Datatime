@@ -1157,14 +1157,6 @@
       "reqFeature": "pc_only_events",
       "forceExternalBrowser": true
     },
-    "2022_main_promo_pc": {
-      "aspect_ratio": 2.07,
-      "text": "#unlocks/chapter/history_pages",
-      "image": "https://static.warthunder.com/upload/image/Promo/promo_december_22.jpg?P1",
-      "action": "profile; UnlockAchievement; history_pages; december",
-      "startTime": "2022-12-01 00:00",
-      "endTime": "2023-01-01 11:00"
-    },
     "2022_main_promo_ps4_xboxOne": [
       {
         "aspect_ratio": 2.07
@@ -1453,7 +1445,8 @@
       "link": "auto_login https://forum.warthunder.com/index.php?/forum/2179-dev-server-war-thunder-apex-predators/",
       "link_ru": "auto_login https://forum.warthunder.ru/index.php?/forum/1616-testovyi-server-apex-predators/",
       "startTime": "2022-12-09 00:00:00",
-      "endTime": "2022-10-15 00:00:00"
+      "endTime": "2022-12-15 00:00:00",
+      "forceExternalBrowser": true
     },
     "events_mainmenu_button": {
       "color": "#33556126",
