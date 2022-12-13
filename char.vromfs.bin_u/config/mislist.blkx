@@ -45,6 +45,36 @@
       },
       {
         "m": "northern_valley_Conq3"
+      },
+      {
+        "m": "poland_snow_Bttl"
+      },
+      {
+        "m": "poland_snow_Conq1"
+      },
+      {
+        "m": "poland_snow_Conq2"
+      },
+      {
+        "m": "poland_snow_Conq3"
+      },
+      {
+        "m": "poland_snow_Dom"
+      },
+      {
+        "m": "poland_snow_02_Bttl"
+      },
+      {
+        "m": "poland_snow_02_Conq1"
+      },
+      {
+        "m": "poland_snow_02_Conq2"
+      },
+      {
+        "m": "poland_snow_02_Conq3"
+      },
+      {
+        "m": "poland_snow_02_Dom"
       }
     ],
     "tournament": [
