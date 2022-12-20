@@ -13,12 +13,6 @@
   },
   {
     "Weapon": {
-      "slot": 3,
-      "preset": "lau_10a"
-    }
-  },
-  {
-    "Weapon": {
       "slot": 4,
       "preset": "lau_10a_right_x2"
     }

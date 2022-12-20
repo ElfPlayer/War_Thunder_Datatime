@@ -4712,6 +4712,24 @@
       "radarModeName": "PD VS VSL"
     },
     {
+      "radarModeName": "PD HDN VS standby"
+    },
+    {
+      "radarModeName": "PD HDN VS search"
+    },
+    {
+      "radarModeName": "PD HDN VS acquisition"
+    },
+    {
+      "radarModeName": "PD HDN VS ACM"
+    },
+    {
+      "radarModeName": "PD HDN VS BST"
+    },
+    {
+      "radarModeName": "PD HDN VS VSL"
+    },
+    {
       "radarModeName": "PD standby"
     },
     {

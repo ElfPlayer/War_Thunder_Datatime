@@ -2,7 +2,7 @@
   {
     "Weapon": {
       "slot": 1,
-      "preset": "aim9l"
+      "preset": "aim9l_x2_left_wing"
     }
   },
   {
@@ -26,7 +26,7 @@
   {
     "Weapon": {
       "slot": 5,
-      "preset": "aim9l"
+      "preset": "aim9l_x2_right_wing"
     }
   }
 ]

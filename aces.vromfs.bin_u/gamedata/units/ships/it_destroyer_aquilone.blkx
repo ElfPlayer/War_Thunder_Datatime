@@ -5672,6 +5672,39 @@
     ]
   },
   {
+    "skin": {
+      "name": "it_camo_navy_turquoise",
+      "nameLocId": "skin/it_camo_navy_turquoise",
+      "descLocId": "skin/it_camo_navy_turquoise/desc",
+      "replace_tex": {
+        "from": "camo_light_ghostgrey*",
+        "to": "it_camo_navy_turquoise*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "it_camo_browngray_net",
+      "nameLocId": "skin/it_camo_browngray_net",
+      "descLocId": "skin/it_camo_browngray_net/desc",
+      "replace_tex": {
+        "from": "camo_light_ghostgrey*",
+        "to": "it_camo_browngray_net*"
+      }
+    }
+  },
+  {
+    "skin": {
+      "name": "it_camo_multicolor",
+      "nameLocId": "skin/it_camo_multicolor",
+      "descLocId": "skin/it_camo_multicolor/desc",
+      "replace_tex": {
+        "from": "camo_light_ghostgrey*",
+        "to": "it_camo_multicolor*"
+      }
+    }
+  },
+  {
     "commonWeapons": [
       {
         "animatedBones": [
@@ -6195,6 +6228,10 @@
         "from": "destroyer_turbine_c*",
         "to": "destroyer_aquilone_skin_c*",
         "param": "camo_skin_tex"
+      },
+      "replace_tex": {
+        "from": "camo_light_ghostgrey*",
+        "to": "camo_darkgreywhite_spots*"
       }
     }
   },

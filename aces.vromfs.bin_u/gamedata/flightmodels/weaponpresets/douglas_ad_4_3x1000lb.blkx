@@ -2,7 +2,7 @@
   {
     "Weapon": {
       "slot": 7,
-      "preset": "us_1000lb"
+      "preset": "us_1000lb_slot7"
     }
   },
   {
@@ -14,7 +14,7 @@
   {
     "Weapon": {
       "slot": 9,
-      "preset": "us_1000lb"
+      "preset": "us_1000lb_slot9"
     }
   }
 ]

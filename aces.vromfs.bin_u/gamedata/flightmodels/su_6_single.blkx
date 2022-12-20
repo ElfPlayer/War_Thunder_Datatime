@@ -2311,10 +2311,10 @@
       "maxloadMass": 517.0
     },
     {
-      "maxloadMassLeftConsoles": 260.0
+      "maxloadMassLeftConsoles": 265.0
     },
     {
-      "maxloadMassRightConsoles": 260.0
+      "maxloadMassRightConsoles": 265.0
     },
     {
       "maxDisbalance": 180.0

@@ -355,7 +355,7 @@
       "bulletType": "aphe",
       "slopeEffectPreset": "ap",
       "fresnel": [0.23,0.1,2.0],
-      "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+      "shellAnimation": "video/shells_animations/aphe_shell.ivf",
       "explosiveType": "petn",
       "explosiveMass": 0.0046,
       "onHitChanceMultFire": 3.0,
@@ -955,7 +955,7 @@
           "bulletType": "aphe",
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
-          "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+          "shellAnimation": "video/shells_animations/aphe_shell.ivf",
           "explosiveType": "petn",
           "explosiveMass": 0.0046,
           "onHitChanceMultFire": 3.0,
@@ -1437,7 +1437,7 @@
             "bulletType": "ap_i"
           },
           {
-            "shellAnimation": "video/shells_animations/ap_belt.ivf"
+            "shellAnimation": "video/shells_animations/ap_i_shell.ivf"
           },
           {
             "modelName": "tank_bullet_ap"
@@ -1611,7 +1611,7 @@
           "bulletType": "aphe",
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
-          "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+          "shellAnimation": "video/shells_animations/aphe_shell.ivf",
           "explosiveType": "petn",
           "explosiveMass": 0.0046,
           "onHitChanceMultFire": 3.0,
@@ -2503,7 +2503,7 @@
           "bulletType": "aphe",
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
-          "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+          "shellAnimation": "video/shells_animations/aphe_shell.ivf",
           "explosiveType": "petn",
           "explosiveMass": 0.0046,
           "onHitChanceMultFire": 3.0,
@@ -2650,7 +2650,7 @@
           "bulletType": "aphe",
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
-          "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+          "shellAnimation": "video/shells_animations/aphe_shell.ivf",
           "explosiveType": "petn",
           "explosiveMass": 0.0046,
           "onHitChanceMultFire": 3.0,
@@ -2820,7 +2820,7 @@
             "bulletType": "ap_i"
           },
           {
-            "shellAnimation": "video/shells_animations/ap_belt.ivf"
+            "shellAnimation": "video/shells_animations/ap_i_shell.ivf"
           },
           {
             "modelName": "tank_bullet_ap"

@@ -108,15 +108,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "controlDevices": [
       {
         "device": {
@@ -1081,6 +1072,18 @@
             "name": "ammo_body_l_20_dm"
           },
           {
+            "name": "ammo_body_l_21_dm"
+          },
+          {
+            "name": "ammo_body_l_22_dm"
+          },
+          {
+            "name": "ammo_body_l_23_dm"
+          },
+          {
+            "name": "ammo_body_l_24_dm"
+          },
+          {
             "name": "ammo_body_r_01_dm"
           },
           {
@@ -1139,6 +1142,18 @@
           },
           {
             "name": "ammo_body_r_20_dm"
+          },
+          {
+            "name": "ammo_body_r_21_dm"
+          },
+          {
+            "name": "ammo_body_r_22_dm"
+          },
+          {
+            "name": "ammo_body_r_23_dm"
+          },
+          {
+            "name": "ammo_body_r_24_dm"
           },
           {
             "name": "ammo_turret_dm"
@@ -2311,6 +2326,18 @@
     }
   },
   {
+    "fuelTanks": {
+      "r1": {
+        "part": "fuel_tank_exterior_r_01_dm",
+        "external": true
+      },
+      "l1": {
+        "part": "fuel_tank_exterior_l_01_dm",
+        "external": true
+      }
+    }
+  },
+  {
     "xray_viewer_data": [
       {
         "armorArrayHull": {
@@ -3137,7 +3164,7 @@
           "limitsTable": {
             "lim1": [-180.0,-120.0,-5.0,8.0],
             "lim2": [-120.0,-30.0,-5.0,15.0],
-            "lim3": [-30.0,40.0,-5.0,18.0],
+            "lim3": [-30.0,40.0,-5.0,15.0],
             "lim4": [40.0,120.0,-5.0,15.0],
             "lim5": [120.0,180.0,-5.0,8.0]
           },
@@ -3361,9 +3388,9 @@
   {
     "VehiclePhys": {
       "Mass": {
-        "Empty": 23000.0,
-        "Fuel": 404.0,
-        "TakeOff": 23404.0,
+        "Empty": 18000.0,
+        "Fuel": 700.0,
+        "TakeOff": 18700.0,
         "momentOfInertia": [2.0,2.0,4.0],
         "CenterOfGravity": [-0.1,1.4,0.0],
         "CenterOfGravityClampY": [0.0,0.5],
@@ -4463,6 +4490,11 @@
     }
   },
   {
+    "dmgAngles": {
+      "hatch_16": [15.0,35.0]
+    }
+  },
+  {
     "ammoStowages": {
       "ammo1": [
         {
@@ -4641,7 +4673,7 @@
                 "limitsTable": {
                   "lim1": [-180.0,-120.0,-5.0,8.0],
                   "lim2": [-120.0,-30.0,-5.0,15.0],
-                  "lim3": [-30.0,40.0,-5.0,18.0],
+                  "lim3": [-30.0,40.0,-5.0,15.0],
                   "lim4": [40.0,120.0,-5.0,15.0],
                   "lim5": [120.0,180.0,-5.0,8.0]
                 },
@@ -5008,12 +5040,28 @@
     }
   },
   {
-    "default_skin": {
-      "replace_tex": {
-        "from": "us_camo_olive*",
-        "to": "us_camo_modern_green*"
+    "default_skin": [
+      {
+        "replace_tex": {
+          "from": "us_camo_olive*",
+          "to": "us_camo_modern_green*"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "m1128_mgs_body_c*",
+          "to": "m1128_mgs_skin_body_c*",
+          "param": "camo_skin_tex"
+        }
+      },
+      {
+        "set_tex": {
+          "from": "m1128_mgs_gun_c*",
+          "to": "m1128_mgs_skin_gun_c*",
+          "param": "camo_skin_tex"
+        }
       }
-    }
+    ]
   },
   {
     "skin": {

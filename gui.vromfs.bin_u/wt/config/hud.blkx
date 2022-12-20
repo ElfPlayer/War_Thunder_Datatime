@@ -435,7 +435,7 @@
       "icon_enemy_marker": "chat_icon_attention",
       "icon_attack_enemy_marker": "chat_icon_attention",
       "icon_artillery_attack": "chat_icon_artillery_attack",
-      "icon_marker_from_uav": "chat_icon_target_uav",
+      "icon_marker_from_uav": "chat_icon_attention",
       "respawnbase_select": "respawnbase_select.svg:44:54:K",
       "iconArtilleryAttackBlinkTime": 20.0,
       "iconArtilleryAttackDist": 150.0,
@@ -1759,10 +1759,10 @@
         "colorSquadTargetIndicatorText": "#fafa08e6"
       },
       {
-        "colorUavTargetIndicator": "#08fafae6"
+        "colorUavTargetIndicator": "#c83208e6"
       },
       {
-        "colorUavTargetIndicatorText": "#08fafae6"
+        "colorUavTargetIndicatorText": "#c83208e6"
       },
       {
         "iconOuterCaptureZone": "capturezone_big_ring.svg:132:168:K"
@@ -2525,6 +2525,25 @@
   },
   {
     "hit_indicator": {
+      "hit_fire": "hit_icon_fire.svg:50:50:K",
+      "hit_module": "hit_icon_module.svg:50:50:K",
+      "hit_crew": "hit_icon_crew.svg:50:50:K",
+      "hit_bg_pen": "hit_bg_pen",
+      "hit_bg_no_pen": "hit_bg_no_pen",
+      "minAngle": 3.0,
+      "relativeRadius": 0.33,
+      "scale": 0.45,
+      "radiusCoefIcon": 0.985,
+      "scaleCoefIcon": 1.0,
+      "colorMin": "#ffffff96",
+      "colorMax": "#ffffffbe",
+      "hitsForColorMax": 3,
+      "maxHits": 5,
+      "timeHide": 2.0
+    }
+  },
+  {
+    "hit_indicator_simple": {
       "segment": "hit_segment",
       "minAngle": 1.0,
       "relativeRadius": 0.66,

@@ -1757,6 +1757,12 @@
     },
     {
       "preset": {
+        "name": "z_19_akd_9_default",
+        "blk": "gameData/flightModels/weaponPresets/z_19_akd_9_default.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "z_19_hf7d",
         "blk": "gameData/flightModels/weaponPresets/z_19_hf7d.blk"
       }

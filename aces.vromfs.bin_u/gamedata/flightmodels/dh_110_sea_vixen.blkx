@@ -2852,7 +2852,7 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "rockets_ap_small_group",
+              "iconType": "rockets_ap_large_group_x6",
               "name": "ap_rp3",
               "reqModification": "sea_hawk_60lb_rocket_mk1",
               "ShowNodes": {
@@ -2861,7 +2861,7 @@
               "Weapon": {
                 "trigger": "rockets",
                 "external": true,
-                "blk": "gameData/Weapons/containers/uk_rp3_late_ap.blk",
+                "blk": "gameData/Weapons/containers/uk_25lb_late_ap_mk2.blk",
                 "emitter": "uk_rp3_rocket_pylon1",
                 "machLimit": 1.01
               }
@@ -3053,7 +3053,7 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "rockets_ap_small_group",
+              "iconType": "rockets_ap_large_group_x6",
               "name": "ap_rp3",
               "reqModification": "sea_hawk_60lb_rocket_mk1",
               "ShowNodes": {
@@ -3062,7 +3062,7 @@
               "Weapon": {
                 "trigger": "rockets",
                 "external": true,
-                "blk": "gameData/Weapons/containers/uk_rp3_late_ap.blk",
+                "blk": "gameData/Weapons/containers/uk_25lb_late_ap_mk2.blk",
                 "emitter": "uk_rp3_rocket_pylon2",
                 "machLimit": 1.01
               }
@@ -3254,7 +3254,7 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "rockets_ap_small_group",
+              "iconType": "rockets_ap_large_group_x6",
               "name": "ap_rp3",
               "reqModification": "sea_hawk_60lb_rocket_mk1",
               "ShowNodes": {
@@ -3263,7 +3263,7 @@
               "Weapon": {
                 "trigger": "rockets",
                 "external": true,
-                "blk": "gameData/Weapons/containers/uk_rp3_late_ap.blk",
+                "blk": "gameData/Weapons/containers/uk_25lb_late_ap_mk2.blk",
                 "emitter": "uk_rp3_rocket_pylon3",
                 "machLimit": 1.01
               }
@@ -3455,7 +3455,7 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "rockets_ap_small_group",
+              "iconType": "rockets_ap_large_group_x6",
               "name": "ap_rp3",
               "reqModification": "sea_hawk_60lb_rocket_mk1",
               "ShowNodes": {
@@ -3464,7 +3464,7 @@
               "Weapon": {
                 "trigger": "rockets",
                 "external": true,
-                "blk": "gameData/Weapons/containers/uk_rp3_late_ap.blk",
+                "blk": "gameData/Weapons/containers/uk_25lb_late_ap_mk2.blk",
                 "emitter": "uk_rp3_rocket_pylon4",
                 "machLimit": 1.01
               }

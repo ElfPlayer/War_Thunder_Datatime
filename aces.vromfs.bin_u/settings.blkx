@@ -331,6 +331,12 @@
       "p": "Radeon HD 8$"
     },
     {
+      "p": "Radeon R3$"
+    },
+    {
+      "p": "Radeon R4$"
+    },
+    {
       "p": "Radeon R5$"
     },
     {
@@ -749,6 +755,9 @@
     },
     {
       "p": "Iris Pro Graphics 5200"
+    },
+    {
+      "p": "Iris Xe Graphics"
     },
     {
       "p": "UHD Graphics 6$"

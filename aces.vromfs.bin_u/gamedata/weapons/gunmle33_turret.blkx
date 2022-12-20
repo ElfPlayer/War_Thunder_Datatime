@@ -1632,7 +1632,7 @@
   {
     "overheat": [
       {
-        "overheat": [7.5,0.0]
+        "overheat": [6.3,0.0]
       },
       {
         "overheat": [9.0,0.05]
@@ -1644,10 +1644,10 @@
       "maxDeltaAngle": 0.45,
       "overheat": [
         {
-          "overheat": [5.3,0.0]
+          "overheat": [4.3,0.0]
         },
         {
-          "overheat": [8.0,0.05]
+          "overheat": [7.0,0.05]
         }
       ]
     }

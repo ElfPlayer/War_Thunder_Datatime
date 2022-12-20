@@ -34,22 +34,6 @@
     ]
   },
   {
-    "HideDmParts": [
-      {
-        "node": "cannon2_dm"
-      },
-      {
-        "node": "cannon3_dm"
-      },
-      {
-        "node": "cover5_dm"
-      },
-      {
-        "node": "cover6_dm"
-      }
-    ]
-  },
-  {
     "Weapon": {
       "cmOffset": [-0.9,0.0,0.0],
       "trigger": "additional gun",

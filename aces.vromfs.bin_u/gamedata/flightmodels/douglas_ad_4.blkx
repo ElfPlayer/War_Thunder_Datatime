@@ -2715,6 +2715,9 @@
               "iconType": "bombs_small",
               "name": "us_250_anm57a1_slot7",
               "reqModification": "btd_sbc",
+              "ShowNodes": {
+                "node": "pylon7"
+              },
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_250lb_anm57.blk",
@@ -2729,8 +2732,11 @@
           {
             "WeaponPreset": {
               "iconType": "bombs_middle",
-              "name": "us_500lb_anm64a1",
+              "name": "us_500lb_anm64a1_slot7",
               "reqModification": "btd_sbc",
+              "ShowNodes": {
+                "node": "pylon7"
+              },
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_500lb_anm64a1.blk",
@@ -2745,8 +2751,11 @@
           {
             "WeaponPreset": {
               "iconType": "bombs_large",
-              "name": "us_1000lb",
+              "name": "us_1000lb_slot7",
               "reqModification": "btd_mbc",
+              "ShowNodes": {
+                "node": "pylon7"
+              },
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_1000lb_anm65a1.blk",
@@ -2761,8 +2770,11 @@
           {
             "WeaponPreset": {
               "iconType": "air_mines",
-              "name": "us_mine_mk13_mod0",
+              "name": "us_mine_mk13_mod0_slot7",
               "reqModification": "us_mine_mk13_mod0",
+              "ShowNodes": {
+                "node": "pylon7"
+              },
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/mines/us_mine_mk13_mod0.blk",
@@ -2777,8 +2789,11 @@
           {
             "WeaponPreset": {
               "iconType": "rockets_he_large",
-              "name": "tyni_tim",
+              "name": "tyni_tim_slot7",
               "reqModification": "frc_mk3",
+              "ShowNodes": {
+                "node": "pylon7"
+              },
               "Weapon": {
                 "trigger": "rockets",
                 "blk": "gameData/Weapons/rocketGuns/us_11_75_in_tiny_tim.blk",
@@ -2904,6 +2919,9 @@
               "iconType": "bombs_small",
               "name": "us_250_anm57a1_slot9",
               "reqModification": "btd_sbc",
+              "ShowNodes": {
+                "node": "pylon8"
+              },
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_250lb_anm57.blk",
@@ -2918,8 +2936,11 @@
           {
             "WeaponPreset": {
               "iconType": "bombs_middle",
-              "name": "us_500lb_anm64a1",
+              "name": "us_500lb_anm64a1_slot9",
               "reqModification": "btd_sbc",
+              "ShowNodes": {
+                "node": "pylon8"
+              },
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_500lb_anm64a1.blk",
@@ -2934,8 +2955,11 @@
           {
             "WeaponPreset": {
               "iconType": "bombs_large",
-              "name": "us_1000lb",
+              "name": "us_1000lb_slot9",
               "reqModification": "btd_mbc",
+              "ShowNodes": {
+                "node": "pylon8"
+              },
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_1000lb_anm65a1.blk",
@@ -2950,8 +2974,11 @@
           {
             "WeaponPreset": {
               "iconType": "air_mines",
-              "name": "us_mine_mk13_mod0",
+              "name": "us_mine_mk13_mod0_slot9",
               "reqModification": "us_mine_mk13_mod0",
+              "ShowNodes": {
+                "node": "pylon8"
+              },
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/mines/us_mine_mk13_mod0.blk",
@@ -2966,8 +2993,11 @@
           {
             "WeaponPreset": {
               "iconType": "rockets_he_large",
-              "name": "tyni_tim",
+              "name": "tyni_tim_slot9",
               "reqModification": "frc_mk3",
+              "ShowNodes": {
+                "node": "pylon8"
+              },
               "Weapon": {
                 "trigger": "rockets",
                 "blk": "gameData/Weapons/rocketGuns/us_11_75_in_tiny_tim.blk",

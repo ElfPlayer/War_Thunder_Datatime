@@ -3,13 +3,13 @@
     "mandatoryLandquality": 1
   },
   {
-    "enableApex": true
+    "enableApex": false
   },
   {
     "apexWorkScale": 0.5
   },
   {
-    "hmapLodCount": 4
+    "hmapLodCount": 6
   },
   {
     "impostorsDistAdditionalMul": 1.0
@@ -24,10 +24,10 @@
     "mapCoord1": [32768.0,32768.0]
   },
   {
-    "aiMapCoord0": [-32768.0,-32768.0]
+    "aiMapCoord0": [-25237.0,-25237.0]
   },
   {
-    "aiMapCoord1": [32768.0,32768.0]
+    "aiMapCoord1": [25237.0,25237.0]
   },
   {
     "minAreaSize": [12000.0,12000.0]
@@ -171,19 +171,19 @@
   {
     "micro_details": [
       {
-        "micro_detail": "microdetail_stone_b_tex_n"
-      },
-      {
-        "micro_detail": "microdetail_scan_gravel_a_tex_n"
-      },
-      {
-        "micro_detail": "microdetail_sand_a_tex_n"
+        "micro_detail": "microdetail_stone_a_tex_n"
       },
       {
         "micro_detail": "microdetail_scan_gravel_a_tex_n"
       },
       {
         "micro_detail": "microdetail_generic_granules_a_tex_n"
+      },
+      {
+        "micro_detail": "microdetail_scan_gravel_a_tex_n"
+      },
+      {
+        "micro_detail": "microdetail_sand_a_tex_n"
       },
       {
         "micro_detail": "microdetail_grass_a_tex_n"
@@ -694,15 +694,246 @@
     ]
   },
   {
-    "overrideRiLodRange": []
+    "overrideRiLodRange": {
+      "nvrsk_factory_chimney_a": {
+        "lod0": 100.0,
+        "lod1": 180.0,
+        "lod2": 400.0,
+        "lod3": 12000.0
+      },
+      "port_crane_g": {
+        "lod0": 150.0,
+        "lod1": 300.0,
+        "lod2": 500.0,
+        "lod3": 4000.0
+      },
+      "port_crane_g_arm": {
+        "lod0": 250.0,
+        "lod1": 700.0,
+        "lod2": 1500.0,
+        "lod3": 4000.0
+      },
+      "spud_pontoon": {
+        "lod0": 200.0,
+        "lod1": 350.0,
+        "lod2": 700.0,
+        "lod3": 5000.0
+      },
+      "spud_pontoon_float": {
+        "lod0": 20.0,
+        "lod1": 30.0,
+        "lod2": 40.0,
+        "lod3": 400.0
+      },
+      "spud_pontoon_bridge": {
+        "lod0": 100.0,
+        "lod1": 200.0,
+        "lod2": 400.0,
+        "lod3": 5000.0
+      },
+      "port_building_factory": {
+        "lod0": 100.0,
+        "lod1": 200.0,
+        "lod2": 600.0,
+        "lod3": 6000.0
+      },
+      "floating_crane_a": {
+        "lod0": 100.0,
+        "lod1": 150.0,
+        "lod2": 400.0,
+        "lod3": 4000.0
+      },
+      "water_garbage_pile_a": {
+        "lod0": 300.0,
+        "lod1": 450.0,
+        "lod2": 900.0,
+        "lod3": 4000.0
+      },
+      "water_garbage_pile_b": {
+        "lod0": 300.0,
+        "lod1": 450.0,
+        "lod2": 900.0,
+        "lod3": 4000.0
+      },
+      "water_garbage_pile_c": {
+        "lod0": 300.0,
+        "lod1": 450.0,
+        "lod2": 900.0,
+        "lod3": 4000.0
+      },
+      "oil_tank_c": {
+        "lod0": 150.0,
+        "lod1": 300.0,
+        "lod2": 1200.0,
+        "lod3": 5000.0
+      },
+      "cement_silo_a": {
+        "lod0": 200.0,
+        "lod1": 500.0,
+        "lod2": 1000.0,
+        "lod3": 5000.0
+      },
+      "uaz_452": {
+        "lod0": 50.0,
+        "lod1": 100.0,
+        "lod2": 250.0,
+        "lod3": 1000.0
+      },
+      "factory_crane_d": {
+        "lod0": 90.0,
+        "lod1": 250.0,
+        "lod2": 700.0,
+        "lod3": 4000.0
+      },
+      "ussr_tank_wagon_1931": {
+        "lod0": 60.0,
+        "lod1": 120.0,
+        "lod2": 600.0,
+        "lod3": 1500.0
+      },
+      "ussr_hopper_wagon_1933_coal": {
+        "lod0": 60.0,
+        "lod1": 120.0,
+        "lod2": 700.0,
+        "lod3": 1500.0
+      },
+      "ussr_low_freight_car_1933": {
+        "lod0": 50.0,
+        "lod1": 80.0,
+        "lod2": 300.0,
+        "lod3": 1500.0
+      },
+      "conex_box_a": {
+        "lod0": 50.0,
+        "lod1": 120.0,
+        "lod2": 1300.0
+      },
+      "conex_box_b": {
+        "lod0": 50.0,
+        "lod1": 120.0,
+        "lod2": 1300.0
+      },
+      "pile_debris_c": {
+        "lod0": 60.0,
+        "lod1": 200.0,
+        "lod2": 1000.0
+      },
+      "zil_130": {
+        "lod0": 50.0,
+        "lod1": 120.0,
+        "lod2": 350.0,
+        "lod3": 1000.0
+      },
+      "af_railroad_crane_column_a": {
+        "lod0": 60.0,
+        "lod1": 100.0,
+        "lod2": 320.0,
+        "lod3": 3000.0
+      },
+      "af_railroad_crane_rail_a": {
+        "lod0": 60.0,
+        "lod1": 100.0,
+        "lod2": 320.0,
+        "lod3": 3000.0
+      },
+      "af_railroad_crane_rail_b": {
+        "lod0": 60.0,
+        "lod1": 100.0,
+        "lod2": 320.0,
+        "lod3": 3000.0
+      },
+      "af_conveyor_middle": {
+        "lod0": 50.0,
+        "lod1": 120.0,
+        "lod2": 500.0,
+        "lod3": 4500.0
+      },
+      "af_conveyor_middle_corridor_a": {
+        "lod0": 80.0,
+        "lod1": 120.0,
+        "lod2": 1000.0,
+        "lod3": 4500.0
+      },
+      "nothern_valley_cliff_flat": {
+        "lod0": 2500.0,
+        "lod1": 4000.0,
+        "lod2": 6000.0,
+        "lod3": 15000.0
+      },
+      "nothern_valley_cliff_rocky": {
+        "lod0": 2000.0,
+        "lod1": 3000.0,
+        "lod2": 6000.0,
+        "lod3": 15000.0
+      },
+      "tower_crane_a_arm": {
+        "lod0": 250.0,
+        "lod1": 700.0,
+        "lod2": 1500.0,
+        "lod3": 4000.0
+      },
+      "africa_cliff_close_range_b": {
+        "lod0": 150.0,
+        "lod1": 800.0,
+        "lod2": 3000.0
+      },
+      "af_concrete_plates_a": {
+        "lod0": 100.0,
+        "lod1": 300.0,
+        "lod2": 1200.0
+      },
+      "front_loader": {
+        "lod0": 180.0,
+        "lod1": 400.0,
+        "lod2": 900.0,
+        "lod3": 1300.0
+      },
+      "crawler_excavator": {
+        "lod0": 180.0,
+        "lod1": 400.0,
+        "lod2": 900.0,
+        "lod3": 1300.0
+      },
+      "fence_gates_a": {
+        "lod0": 100.0,
+        "lod1": 1600.0
+      },
+      "water_pipes_heating_top": {
+        "lod0": 60.0,
+        "lod1": 100.0,
+        "lod2": 400.0,
+        "lod3": 600.0
+      },
+      "water_pipes_heating_vertical": {
+        "lod0": 60.0,
+        "lod1": 100.0,
+        "lod2": 400.0,
+        "lod3": 600.0
+      },
+      "water_pipes_heating_start": {
+        "lod0": 60.0,
+        "lod1": 100.0,
+        "lod2": 400.0,
+        "lod3": 600.0
+      },
+      "water_pipes_heating_angle_lower": {
+        "lod0": 60.0,
+        "lod1": 100.0,
+        "lod2": 400.0,
+        "lod3": 600.0
+      },
+      "water_pipes_heating_lower": {
+        "lod0": 60.0,
+        "lod1": 100.0,
+        "lod2": 400.0,
+        "lod3": 600.0
+      }
+    }
   },
   {
     "forceTexLQ": [
       {
         "tex": "country_road_all_tex_d*"
-      },
-      {
-        "tex": "uaz_31514_tex_n*"
       },
       {
         "tex": "tree_fagus_hurtgen_pl_l_b_nt*"
@@ -745,9 +976,6 @@
       },
       {
         "tex": "m123_truck_tex_n*"
-      },
-      {
-        "tex": "liaz_677_tex_n*"
       },
       {
         "tex": "global_brick_wall_tex_n*"
@@ -832,9 +1060,6 @@
       },
       {
         "tex": "zaz_968_tex_n*"
-      },
-      {
-        "tex": "zil_130_tex_n*"
       },
       {
         "tex": "tree_populus_branches_tex_a*"
@@ -963,13 +1188,7 @@
         "tex": "asphalt_damaged_a_tex_d*"
       },
       {
-        "tex": "bitumen_roof_a_d*"
-      },
-      {
         "tex": "brick_large_blocks_a_d*"
-      },
-      {
-        "tex": "bucket_wheel_excavator_chassis_tex_n*"
       },
       {
         "tex": "bucket_wheel_excavator_hull_tex_n*"
@@ -996,16 +1215,10 @@
         "tex": "haystack_tex_d*"
       },
       {
-        "tex": "metal_bare_a_tex_d*"
-      },
-      {
         "tex": "metal_clean_a_tex_n*"
       },
       {
         "tex": "metal_painted_a_tex_n*"
-      },
-      {
-        "tex": "metal_painted_clear_a_tex_d*"
       },
       {
         "tex": "metal_painted_rusty_a_tex_d*"
@@ -1056,15 +1269,6 @@
         "tex": "sandbags_tex_n*"
       },
       {
-        "tex": "sheer_dug_rocks_a_tex_n*"
-      },
-      {
-        "tex": "sheer_dug_rocks_b_tex_n*"
-      },
-      {
-        "tex": "sheer_dug_rocks_uni_tex_n*"
-      },
-      {
         "tex": "soviet_lamp_post_high_a_tex_n*"
       },
       {
@@ -1074,21 +1278,11 @@
         "tex": "tree_fagus_hurtgen_pl_l_a_aa*"
       },
       {
-        "tex": "stucco_new_d*"
-      },
-      {
         "tex": "stucco_rough_tex_d*"
       },
       {
         "tex": "stucco_white_broken_a_d*"
       },
-      {
-        "tex": "stucco_white_d*"
-      }
-    ]
-  },
-  {
-    "forceTexMQ": [
       {
         "tex": "decal_asphalt_road_b_tex_d*"
       },
@@ -1156,9 +1350,6 @@
         "tex": "africa_cliffs_tex_d*"
       },
       {
-        "tex": "buildings_overlay_tex_d*"
-      },
-      {
         "tex": "concrete_panels_c_tex_d*"
       },
       {
@@ -1172,9 +1363,6 @@
       },
       {
         "tex": "decal_road_tracks_tex_d*"
-      },
-      {
-        "tex": "factory_building_overlay_tex*"
       },
       {
         "tex": "ground_decal_asphalt_dirt_tex_d*"
@@ -1219,19 +1407,10 @@
         "tex": "nvrsk_wood_storehouses_overlay*"
       },
       {
-        "tex": "ussr_dragline_excavator_esh_20_90_tex_n*"
-      },
-      {
-        "tex": "ussr_dump_truck_belaz_75211_a_tex_n*"
-      },
-      {
         "tex": "concrete_plates_road_a_tex_r*"
       },
       {
         "tex": "avg_northern_valley_modulate_tex*"
-      },
-      {
-        "tex": "bucket_wheel_excavator_chassis_overlay_tex_d*"
       },
       {
         "tex": "bucket_wheel_excavator_hull_overlay_tex_d*"
@@ -1249,9 +1428,6 @@
         "tex": "karelia_fort_square_plates_tex_d*"
       },
       {
-        "tex": "liaz_677_tex_d*"
-      },
-      {
         "tex": "m123_truck_tex_d*"
       },
       {
@@ -1264,9 +1440,6 @@
         "tex": "sand_errosion_loft_a_tex_d*"
       },
       {
-        "tex": "sher_splintered_rocks_a_tex_n*"
-      },
-      {
         "tex": "soil_errosion_loft_b_tex_d*"
       },
       {
@@ -1276,25 +1449,13 @@
         "tex": "soviet_garage_a_overlay_tex_d*"
       },
       {
-        "tex": "spud_pontoon_overlay*"
-      },
-      {
         "tex": "studebaker_us6_u1_tex_d*"
       },
       {
         "tex": "stz_ruin_overlay*"
       },
       {
-        "tex": "uaz_31514_tex_d*"
-      },
-      {
         "tex": "uaz_452_tex_d*"
-      },
-      {
-        "tex": "ussr_dragline_excavator_esh_20_90_tex_d*"
-      },
-      {
-        "tex": "ussr_dump_truck_belaz_75211_a_tex_d*"
       },
       {
         "tex": "ussr_hopper_wagon_1933_tex_d*"
@@ -1330,19 +1491,7 @@
         "tex": "highland_sand_meadows_a*"
       },
       {
-        "tex": "new_zeland_rock_vertical*"
-      },
-      {
         "tex": "sasaul_branch_tex_d*"
-      },
-      {
-        "tex": "sher_splintered_rocks_a_tex_d*"
-      },
-      {
-        "tex": "sheer_dug_rocks_c_tex_d*"
-      },
-      {
-        "tex": "sheer_dug_rocks_c_tex_n*"
       },
       {
         "tex": "soil_errosion_loft_c_tex_d*"
@@ -1361,9 +1510,6 @@
       },
       {
         "tex": "wood_painted_a_tex_d*"
-      },
-      {
-        "tex": "zil_130_tex_d*"
       },
       {
         "tex": "af_machine_tool_tex_d*"
@@ -1411,9 +1557,6 @@
         "tex": "factory_machines_tex_n*"
       },
       {
-        "tex": "floating_crane_a_overlay*"
-      },
-      {
         "tex": "ground_decal_oil_puddle_tex_r*"
       },
       {
@@ -1424,9 +1567,6 @@
       },
       {
         "tex": "port_crane_overlay*"
-      },
-      {
-        "tex": "port_office_a_overlay*"
       },
       {
         "tex": "rock_layered_tile_b_tex_d*"
@@ -1441,12 +1581,6 @@
         "tex": "rock_smooth_tile_b_tex_d*"
       },
       {
-        "tex": "sheer_excavated_rocks_detail_a_tex_n*"
-      },
-      {
-        "tex": "silo_tower_a_overlay*"
-      },
-      {
         "tex": "slate_roof_a_tex_d*"
       },
       {
@@ -1459,16 +1593,110 @@
         "tex": "soviet_lamp_post_high_a_tex_d*"
       },
       {
-        "tex": "spud_pontoon_bridge_overlay*"
+        "tex": "sher_splintered_rocks_a_tex_d*"
       },
       {
-        "tex": "spud_pontoon_float_overlay*"
+        "tex": "sher_splintered_rocks_a_tex_n*"
       },
       {
         "tex": "storage_gsm_fuel_tank_horizontal_a_n*"
       },
       {
         "tex": "tower_crane_a_overlay_tex_d*"
+      },
+      {
+        "tex": "stucco_white_d*"
+      },
+      {
+        "tex": "stucco_new_d*"
+      }
+    ]
+  },
+  {
+    "forceTexMQ": [
+      {
+        "tex": "zil_130_tex_d*"
+      },
+      {
+        "tex": "zil_130_tex_n*"
+      },
+      {
+        "tex": "uaz_31514_tex_d*"
+      },
+      {
+        "tex": "uaz_31514_tex_n*"
+      },
+      {
+        "tex": "liaz_677_tex_d*"
+      },
+      {
+        "tex": "liaz_677_tex_n*"
+      },
+      {
+        "tex": "buildings_overlay_tex_d*"
+      },
+      {
+        "tex": "factory_building_overlay_tex*"
+      },
+      {
+        "tex": "metal_bare_a_tex_d*"
+      },
+      {
+        "tex": "bitumen_roof_a_d*"
+      },
+      {
+        "tex": "spud_pontoon_bridge_overlay*"
+      },
+      {
+        "tex": "spud_pontoon_float_overlay*"
+      },
+      {
+        "tex": "spud_pontoon_overlay*"
+      },
+      {
+        "tex": "port_office_a_overlay*"
+      },
+      {
+        "tex": "floating_crane_a_overlay*"
+      },
+      {
+        "tex": "new_zeland_rock_vertical*"
+      },
+      {
+        "tex": "silo_tower_a_overlay*"
+      },
+      {
+        "tex": "sheer_excavated_rocks_detail_a_tex_n*"
+      },
+      {
+        "tex": "ussr_dump_truck_belaz_75211_a_tex_d*"
+      },
+      {
+        "tex": "ussr_dump_truck_belaz_75211_a_tex_n*"
+      },
+      {
+        "tex": "bucket_wheel_excavator_chassis_overlay_tex_d*"
+      },
+      {
+        "tex": "bucket_wheel_excavator_chassis_tex_n*"
+      },
+      {
+        "tex": "metal_painted_clear_a_tex_d*"
+      },
+      {
+        "tex": "sheer_dug_rocks_b_tex_n*"
+      },
+      {
+        "tex": "sheer_dug_rocks_c_tex_d*"
+      },
+      {
+        "tex": "sheer_dug_rocks_c_tex_n*"
+      },
+      {
+        "tex": "sheer_dug_rocks_a_tex_n*"
+      },
+      {
+        "tex": "sheer_dug_rocks_uni_tex_n*"
       }
     ]
   },

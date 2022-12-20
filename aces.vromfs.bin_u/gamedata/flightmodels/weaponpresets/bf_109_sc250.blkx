@@ -67,6 +67,9 @@
       "node": "cannon3_dm"
     },
     {
+      "node": "cannon4_dm"
+    },
+    {
       "node": "cover5_dm"
     },
     {

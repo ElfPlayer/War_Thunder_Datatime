@@ -26,55 +26,7 @@
         "m": "port_novorossiysk_aslt_Dom"
       },
       {
-        "m": "northern_valley_Dom"
-      },
-      {
-        "m": "northern_valley_02_Dom"
-      },
-      {
-        "m": "northern_valley_Bttl"
-      },
-      {
-        "m": "northern_valley_02_Bttl"
-      },
-      {
-        "m": "northern_valley_Conq1"
-      },
-      {
-        "m": "northern_valley_Conq2"
-      },
-      {
-        "m": "northern_valley_Conq3"
-      },
-      {
-        "m": "poland_snow_Bttl"
-      },
-      {
-        "m": "poland_snow_Conq1"
-      },
-      {
-        "m": "poland_snow_Conq2"
-      },
-      {
-        "m": "poland_snow_Conq3"
-      },
-      {
-        "m": "poland_snow_Dom"
-      },
-      {
-        "m": "poland_snow_02_Bttl"
-      },
-      {
-        "m": "poland_snow_02_Conq1"
-      },
-      {
-        "m": "poland_snow_02_Conq2"
-      },
-      {
-        "m": "poland_snow_02_Conq3"
-      },
-      {
-        "m": "poland_snow_02_Dom"
+        "m": "arcade_event_avatar_AfD"
       }
     ],
     "tournament": [
@@ -319,6 +271,18 @@
       },
       {
         "m": "arctic_02_Dom"
+      },
+      {
+        "m": "northern_valley_Dom"
+      },
+      {
+        "m": "northern_valley_02_Dom"
+      },
+      {
+        "m": "poland_snow_Dom"
+      },
+      {
+        "m": "poland_snow_02_Dom"
       }
     ],
     "air_ground_Bttl": [
@@ -477,6 +441,18 @@
       },
       {
         "m": "arctic_Bttl"
+      },
+      {
+        "m": "northern_valley_Bttl"
+      },
+      {
+        "m": "northern_valley_02_Bttl"
+      },
+      {
+        "m": "poland_snow_Bttl"
+      },
+      {
+        "m": "poland_snow_02_Bttl"
       }
     ],
     "air_ground_Conq": [
@@ -920,6 +896,33 @@
       },
       {
         "m": "arctic_Conq3"
+      },
+      {
+        "m": "northern_valley_Conq1"
+      },
+      {
+        "m": "northern_valley_Conq2"
+      },
+      {
+        "m": "northern_valley_Conq3"
+      },
+      {
+        "m": "poland_snow_Conq1"
+      },
+      {
+        "m": "poland_snow_Conq2"
+      },
+      {
+        "m": "poland_snow_Conq3"
+      },
+      {
+        "m": "poland_snow_02_Conq1"
+      },
+      {
+        "m": "poland_snow_02_Conq2"
+      },
+      {
+        "m": "poland_snow_02_Conq3"
       }
     ],
     "air_ground_DBttl": [

@@ -4723,30 +4723,6 @@
     ]
   },
   {
-    "default_skin": {
-      "replace_tex": {
-        "from": "aero_7_olive_c*",
-        "to": "aero_7_white_c*"
-      }
-    }
-  },
-  {
-    "default_skin_tomoe": [
-      {
-        "replace_tex": {
-          "from": "f_4ej_c*",
-          "to": "f_4ej_c_tomoe*"
-        }
-      },
-      {
-        "replace_tex": {
-          "from": "f_4ej_c_dmg*",
-          "to": "f_4ej_c_tomoe_dmg*"
-        }
-      }
-    ]
-  },
-  {
     "parachutes": {
       "emitterRange": [1,1],
       "emitterName": "emtr_chute",
@@ -4772,5 +4748,37 @@
       "emtr_break_tail_from": [-4.33957,-0.0996002,4.57764e-07],
       "emtr_break_tail_to": [-7.37561,-0.0996002,4.57764e-07]
     }
+  },
+  {
+    "default_skin": [
+      {
+        "replace_tex": {
+          "from": "f_4ej_c*",
+          "to": "f_4ej_black_c*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "f_4ej_c_dmg*",
+          "to": "f_4ej_black_c_dmg*"
+        }
+      }
+    ]
+  },
+  {
+    "default_skin_tomoe": [
+      {
+        "replace_tex": {
+          "from": "f_4ej_c*",
+          "to": "f_4ej_black_c_tomoe*"
+        }
+      },
+      {
+        "replace_tex": {
+          "from": "f_4ej_c_dmg*",
+          "to": "f_4ej_black_c_tomoe_dmg*"
+        }
+      }
+    ]
   }
 ]

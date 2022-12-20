@@ -1049,8 +1049,8 @@
     "lightPos": [1.908577,-0.014779,-0.063221],
     "lightColor": [0.01,1.5,0.1],
     "lightRadius": 0.33,
-    "sightInFov": 3.68,
-    "sightOutFov": -1.0,
+    "sightInFov": 6.14,
+    "sightOutFov": 24.74,
     "sightFov": 5.5,
     "devices": {
       "speed": [0.0,257.222],

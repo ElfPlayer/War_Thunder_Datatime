@@ -3687,7 +3687,7 @@
     "emtr_break_wing2_r_from": [-0.152138,0.375242,-2.53928],
     "emtr_break_wing2_r_to": [-0.152138,0.375242,-3.21162],
     "emtr_break_wing_tail": [-3.16721,0.0,0.0],
-    "finCut": true,
+    "finCut": false,
     "emtr_break_tail_from": [-3.13008,0.0275823,-2.98023e-08],
     "emtr_break_tail_to": [-5.1859,0.0275823,-2.98023e-08]
   }

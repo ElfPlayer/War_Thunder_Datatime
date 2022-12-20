@@ -380,7 +380,7 @@
       "bulletType": "aphe",
       "slopeEffectPreset": "ap",
       "fresnel": [0.23,0.1,2.0],
-      "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+      "shellAnimation": "video/shells_animations/aphe_shell.ivf",
       "onHitChanceMultFire": 3.0,
       "recoilMultiplier": 0.4,
       "explosiveType": "petn",
@@ -537,7 +537,7 @@
       "slopeEffectPreset": "ap",
       "fresnel": [0.23,0.1,2.0],
       "explodeOnRendinst": true,
-      "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+      "shellAnimation": "video/shells_animations/he_i_shell.ivf",
       "explosiveType": "ha_41",
       "explosiveMass": 0.0186,
       "recoilMultiplier": 0.4,
@@ -834,7 +834,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -984,7 +984,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -1158,7 +1158,7 @@
             "bulletType": "ap_i"
           },
           {
-            "shellAnimation": "video/shells_animations/ap_belt.ivf"
+            "shellAnimation": "video/shells_animations/ap_i_shell.ivf"
           },
           {
             "modelName": "tank_bullet_ap"
@@ -1364,7 +1364,7 @@
             "bulletType": "ap_i"
           },
           {
-            "shellAnimation": "video/shells_animations/ap_belt.ivf"
+            "shellAnimation": "video/shells_animations/ap_i_shell.ivf"
           },
           {
             "modelName": "tank_bullet_ap"
@@ -1542,7 +1542,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -1692,7 +1692,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -1842,7 +1842,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -1992,7 +1992,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -2292,7 +2292,7 @@
           "bulletType": "aphe",
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
-          "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+          "shellAnimation": "video/shells_animations/aphe_shell.ivf",
           "onHitChanceMultFire": 3.0,
           "recoilMultiplier": 0.4,
           "explosiveType": "petn",
@@ -2450,7 +2450,7 @@
           "bulletType": "aphe",
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
-          "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+          "shellAnimation": "video/shells_animations/aphe_shell.ivf",
           "onHitChanceMultFire": 3.0,
           "recoilMultiplier": 0.4,
           "explosiveType": "petn",
@@ -2608,7 +2608,7 @@
           "bulletType": "aphe",
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
-          "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+          "shellAnimation": "video/shells_animations/aphe_shell.ivf",
           "onHitChanceMultFire": 3.0,
           "recoilMultiplier": 0.4,
           "explosiveType": "petn",
@@ -3649,7 +3649,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -3799,7 +3799,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -3949,7 +3949,7 @@
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
           "explodeOnRendinst": true,
-          "shellAnimation": "video/shells_animations/frag_i_shell.ivf",
+          "shellAnimation": "video/shells_animations/he_i_shell.ivf",
           "explosiveType": "ha_41",
           "explosiveMass": 0.0186,
           "recoilMultiplier": 0.4,
@@ -4100,7 +4100,7 @@
           "bulletType": "aphe",
           "slopeEffectPreset": "ap",
           "fresnel": [0.23,0.1,2.0],
-          "shellAnimation": "video/shells_animations/aphe_belt.ivf",
+          "shellAnimation": "video/shells_animations/aphe_shell.ivf",
           "onHitChanceMultFire": 3.0,
           "recoilMultiplier": 0.4,
           "explosiveType": "petn",
@@ -4281,7 +4281,7 @@
             "bulletType": "ap_i"
           },
           {
-            "shellAnimation": "video/shells_animations/ap_belt.ivf"
+            "shellAnimation": "video/shells_animations/ap_i_shell.ivf"
           },
           {
             "modelName": "tank_bullet_ap"

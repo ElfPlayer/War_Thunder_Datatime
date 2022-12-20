@@ -1010,6 +1010,18 @@
             "name": "ammo_body_l_20_dm"
           },
           {
+            "name": "ammo_body_l_21_dm"
+          },
+          {
+            "name": "ammo_body_l_22_dm"
+          },
+          {
+            "name": "ammo_body_l_23_dm"
+          },
+          {
+            "name": "ammo_body_l_24_dm"
+          },
+          {
             "name": "ammo_body_r_01_dm"
           },
           {
@@ -1068,6 +1080,18 @@
           },
           {
             "name": "ammo_body_r_20_dm"
+          },
+          {
+            "name": "ammo_body_r_21_dm"
+          },
+          {
+            "name": "ammo_body_r_22_dm"
+          },
+          {
+            "name": "ammo_body_r_23_dm"
+          },
+          {
+            "name": "ammo_body_r_24_dm"
           },
           {
             "name": "ammo_turret_dm"

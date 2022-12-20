@@ -135,15 +135,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -660,6 +651,10 @@
         "ammo_body_l_18_dm": [],
         "ammo_body_l_19_dm": [],
         "ammo_body_l_20_dm": [],
+        "ammo_body_l_21_dm": [],
+        "ammo_body_l_22_dm": [],
+        "ammo_body_l_23_dm": [],
+        "ammo_body_l_24_dm": [],
         "ammo_body_r_01_dm": [],
         "ammo_body_r_02_dm": [],
         "ammo_body_r_03_dm": [],
@@ -679,7 +674,11 @@
         "ammo_body_r_17_dm": [],
         "ammo_body_r_18_dm": [],
         "ammo_body_r_19_dm": [],
-        "ammo_body_r_20_dm": []
+        "ammo_body_r_20_dm": [],
+        "ammo_body_r_21_dm": [],
+        "ammo_body_r_22_dm": [],
+        "ammo_body_r_23_dm": [],
+        "ammo_body_r_24_dm": []
       },
       "fuel_tanks": {
         "armorClass": "tank_structural_steel",
@@ -1037,6 +1036,18 @@
             "name": "ammo_body_l_20_dm"
           },
           {
+            "name": "ammo_body_l_21_dm"
+          },
+          {
+            "name": "ammo_body_l_22_dm"
+          },
+          {
+            "name": "ammo_body_l_23_dm"
+          },
+          {
+            "name": "ammo_body_l_24_dm"
+          },
+          {
             "name": "ammo_body_r_01_dm"
           },
           {
@@ -1095,6 +1106,18 @@
           },
           {
             "name": "ammo_body_r_20_dm"
+          },
+          {
+            "name": "ammo_body_r_21_dm"
+          },
+          {
+            "name": "ammo_body_r_22_dm"
+          },
+          {
+            "name": "ammo_body_r_23_dm"
+          },
+          {
+            "name": "ammo_body_r_24_dm"
           },
           {
             "name": "ammo_turret_dm"
@@ -3017,7 +3040,7 @@
         "Weapon": {
           "trigger": "gunner2",
           "triggerGroup": "machinegun",
-          "blk": "gameData/Weapons/groundModels_weapons/12_7mm_DShK_user_machinegun.blk",
+          "blk": "gameData/Weapons/groundModels_weapons/12_7mm_NSV_t_72_user_cannon.blk",
           "emitter": "bone_mg_aa_v",
           "flash": "emtr_mg_aa_flame_01",
           "barrelDP": "gun_barrel_01_dm",
@@ -3026,7 +3049,7 @@
           "parkInDeadzone": false,
           "speedYaw": 90.0,
           "speedPitch": 90.0,
-          "bullets": 350,
+          "bullets": 360,
           "fireConeAngle": 5.0,
           "ChainfireTime": 0.5,
           "DelayAfterShoot": 2.0,
@@ -4408,7 +4431,7 @@
               "Weapon": {
                 "trigger": "gunner2",
                 "triggerGroup": "machinegun",
-                "blk": "gameData/Weapons/groundModels_weapons/12_7mm_DShK_user_machinegun.blk",
+                "blk": "gameData/Weapons/groundModels_weapons/12_7mm_NSV_t_72_user_cannon.blk",
                 "emitter": "bone_mg_aa_v",
                 "flash": "emtr_mg_aa_flame_01",
                 "barrelDP": "gun_barrel_01_dm",
@@ -4417,7 +4440,7 @@
                 "parkInDeadzone": false,
                 "speedYaw": 90.0,
                 "speedPitch": 90.0,
-                "bullets": 350,
+                "bullets": 360,
                 "fireConeAngle": 5.0,
                 "ChainfireTime": 0.5,
                 "DelayAfterShoot": 2.0,

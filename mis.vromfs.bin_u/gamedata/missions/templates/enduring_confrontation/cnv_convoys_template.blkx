@@ -379,6 +379,16 @@
           ]
         },
         {
+          "triggerEnable": [
+            {
+              "target": "cnv_frontline_t1_restart"
+            },
+            {
+              "target": "cnv_frontline_t2_restart"
+            }
+          ]
+        },
+        {
           "comment": {
             "value": "generaciya konvoya razreshena"
           }
@@ -391,6 +401,11 @@
         {
           "comment": {
             "value": "starting convoy generation"
+          }
+        },
+        {
+          "comment": {
+            "value": "starting frontline fix rotator"
           }
         },
         {
@@ -1592,8 +1607,8 @@
           {
             "varSetRandomInt": {
               "var": "cnv_t1_outdated_aaa_to_spawn",
-              "from": 2,
-              "to_not_including": 4
+              "from": 1,
+              "to_not_including": 3
             }
           },
           {
@@ -1664,8 +1679,8 @@
           {
             "varSetRandomInt": {
               "var": "cnv_t1_outdated_aaa_to_spawn",
-              "from": 2,
-              "to_not_including": 4
+              "from": 1,
+              "to_not_including": 3
             }
           },
           {
@@ -4064,8 +4079,8 @@
           {
             "varSetRandomInt": {
               "var": "cnv_t2_outdated_aaa_to_spawn",
-              "from": 2,
-              "to_not_including": 4
+              "from": 1,
+              "to_not_including": 3
             }
           },
           {
@@ -4136,8 +4151,8 @@
           {
             "varSetRandomInt": {
               "var": "cnv_t2_outdated_aaa_to_spawn",
-              "from": 2,
-              "to_not_including": 4
+              "from": 1,
+              "to_not_including": 3
             }
           },
           {
@@ -12778,7 +12793,7 @@
           },
           {
             "triggerEnable": {
-              "target": "cnv_t1_move_left_zone_check_exist"
+              "target": "cnv_t1_move_cur_zone_check_army"
             }
           }
         ],
@@ -12963,6 +12978,61 @@
           },
           "triggerEnable": {
             "target": "cnv_t1_move_down_zone_check_exist"
+          }
+        }
+      },
+      "cnv_t1_move_cur_zone_check_army": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.1
+          }
+        },
+        "conditions": {
+          "varCompareInt": {
+            "var_value": "cnv_t1_move_convoy_cur_zone_state",
+            "value": 2,
+            "comparasion_func": "equal"
+          },
+          "unitWhenCountMatches": {
+            "object_type": "isMarked",
+            "object_marking": 3,
+            "func": "more",
+            "value": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object": "@cnv_t1_move_convoy_name"
+          }
+        },
+        "actions": [
+          {
+            "comment": {
+              "value": "vozmozhnaya sleduyushchaya zona  prinadlezhit protivniku i konvoj dvizhetsya state=2"
+            }
+          },
+          {
+            "comment": {
+              "value": "proveryaem blizost' k mostam chtoby ne ostanavlivat' na mostu"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_t1_move_bridge_check"
+            }
+          }
+        ],
+        "else_actions": {
+          "comment": {
+            "value": "vozmozhnaya sleduyushchaya zona ne prinadlezhit protivniku, proveryaem verhnyuyu"
+          },
+          "triggerEnable": {
+            "target": "cnv_t1_move_left_zone_check_exist"
           }
         }
       },
@@ -14222,7 +14292,7 @@
           },
           {
             "triggerEnable": {
-              "target": "cnv_t2_move_right_zone_check_exist"
+              "target": "cnv_t2_move_cur_zone_check_army"
             }
           }
         ],
@@ -14232,6 +14302,61 @@
           },
           "triggerEnable": {
             "target": "cnv_t2_move_rotator"
+          }
+        }
+      },
+      "cnv_t2_move_cur_zone_check_army": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.1
+          }
+        },
+        "conditions": {
+          "varCompareInt": {
+            "var_value": "cnv_t2_move_convoy_cur_zone_state",
+            "value": 1,
+            "comparasion_func": "equal"
+          },
+          "unitWhenCountMatches": {
+            "object_type": "isMarked",
+            "object_marking": 3,
+            "func": "more",
+            "value": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "object": "@cnv_t2_move_convoy_name"
+          }
+        },
+        "actions": [
+          {
+            "comment": {
+              "value": "vozmozhnaya sleduyushchaya zona  prinadlezhit protivniku i konvoj dvizhetsya state=2"
+            }
+          },
+          {
+            "comment": {
+              "value": "proveryaem blizost' k mostam chtoby ne ostanavlivat' na mostu"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_t2_move_bridge_check"
+            }
+          }
+        ],
+        "else_actions": {
+          "comment": {
+            "value": "vozmozhnaya sleduyushchaya zona ne prinadlezhit protivniku, proveryaem verhnyuyu"
+          },
+          "triggerEnable": {
+            "target": "cnv_t2_move_right_zone_check_exist"
           }
         }
       },
@@ -19354,6 +19479,500 @@
           }
         }
       }
+    },
+    "cnv_frontline_fix": {
+      "isCategory": true,
+      "is_enabled": true,
+      "cnv_frontline_t1_restart": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 1.0
+          }
+        },
+        "conditions": [],
+        "actions": [
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "cnv_frontline_t1_cur_idx"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_frontline_t1_rotator"
+            }
+          }
+        ],
+        "else_actions": []
+      },
+      "cnv_frontline_t1_rotator": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.1
+          }
+        },
+        "conditions": [],
+        "actions": [
+          {
+            "comment": {
+              "value": "no checkks cause there will be defferent procedure"
+            }
+          },
+          {
+            "comment": {
+              "value": "generate zone name"
+            }
+          },
+          {
+            "comment": {
+              "value": "checking does zone exist"
+            }
+          },
+          {
+            "varModify": {
+              "operator": "add",
+              "value": 1.0,
+              "var": "cnv_frontline_t1_cur_idx"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "flt_area_",
+              "var": "cnv_frontline_t1_cur_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@cnv_frontline_t1_cur_idx",
+              "digits": 2,
+              "var": "cnv_frontline_t1_cur_name"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_frontline_t1_check_zone"
+            }
+          }
+        ],
+        "else_actions": []
+      },
+      "cnv_frontline_t1_check_zone": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.1
+          }
+        },
+        "conditions": {
+          "objectExists": {
+            "target": "@cnv_frontline_t1_cur_name",
+            "type": "area"
+          }
+        },
+        "actions": [
+          {
+            "comment": {
+              "value": "zone exist"
+            }
+          },
+          {
+            "comment": {
+              "value": "checking state"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "",
+              "var": "cnv_frontline_t1_army_var_name",
+              "input_var": "cnv_frontline_t1_cur_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_state",
+              "digits": 0,
+              "var": "cnv_frontline_t1_army_var_name"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_frontline_t1_check_army"
+            }
+          }
+        ],
+        "else_actions": {
+          "comment": {
+            "value": "zone doesn't exist restarting"
+          },
+          "triggerEnable": {
+            "target": "cnv_frontline_t1_restart"
+          }
+        }
+      },
+      "cnv_frontline_t1_check_army": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.1
+          }
+        },
+        "conditions": {
+          "varCompareInt": {
+            "var_value": "@cnv_frontline_t1_army_var_name",
+            "value": 2,
+            "comparasion_func": "equal"
+          },
+          "unitWhenInArea": {
+            "math": "2D",
+            "object_type": "isActive",
+            "object_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "check_objects": "any",
+            "object": "cnv_t1_all_convoys_squad",
+            "target": "@cnv_frontline_t1_cur_name"
+          }
+        },
+        "actions": [
+          {
+            "comment": {
+              "value": "there is convoys units in area but zone is hostile"
+            }
+          },
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "unitMark": {
+              "target_marking": 4,
+              "target": "cnv_t1_all_convoys_squad",
+              "useForTriggerFiltered": true
+            }
+          },
+          {
+            "unitPutToSleep": {
+              "target": "cnv_t1_all_convoys_squad",
+              "useForTriggerFiltered": true
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_t1_move_bridge_check"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_frontline_t1_rotator"
+            }
+          },
+          {
+            "wait": {
+              "time": 5.0
+            }
+          }
+        ],
+        "else_actions": {
+          "comment": {
+            "value": ""
+          },
+          "triggerEnable": {
+            "target": "cnv_frontline_t1_rotator"
+          }
+        }
+      },
+      "cnv_frontline_t2_restart": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 1.0
+          }
+        },
+        "conditions": [],
+        "actions": [
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "varSetInt": {
+              "value": 0,
+              "var": "cnv_frontline_t2_cur_idx"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_frontline_t2_rotator"
+            }
+          }
+        ],
+        "else_actions": []
+      },
+      "cnv_frontline_t2_rotator": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.1
+          }
+        },
+        "conditions": [],
+        "actions": [
+          {
+            "comment": {
+              "value": "no checkks cause there will be defferent procedure"
+            }
+          },
+          {
+            "comment": {
+              "value": "generate zone name"
+            }
+          },
+          {
+            "comment": {
+              "value": "checking does zone exist"
+            }
+          },
+          {
+            "varModify": {
+              "operator": "add",
+              "value": 1.0,
+              "var": "cnv_frontline_t2_cur_idx"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "flt_area_",
+              "var": "cnv_frontline_t2_cur_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "@cnv_frontline_t2_cur_idx",
+              "digits": 2,
+              "var": "cnv_frontline_t2_cur_name"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_frontline_t2_check_zone"
+            }
+          }
+        ],
+        "else_actions": []
+      },
+      "cnv_frontline_t2_check_zone": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.1
+          }
+        },
+        "conditions": {
+          "objectExists": {
+            "target": "@cnv_frontline_t2_cur_name",
+            "type": "area"
+          }
+        },
+        "actions": [
+          {
+            "comment": {
+              "value": "zone exist"
+            }
+          },
+          {
+            "comment": {
+              "value": "checking state"
+            }
+          },
+          {
+            "varSetString": {
+              "value": "",
+              "var": "cnv_frontline_t2_army_var_name",
+              "input_var": "cnv_frontline_t2_cur_name"
+            }
+          },
+          {
+            "varAddString": {
+              "value": "_state",
+              "digits": 0,
+              "var": "cnv_frontline_t2_army_var_name"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_frontline_t2_check_army"
+            }
+          }
+        ],
+        "else_actions": {
+          "comment": {
+            "value": "zone doesn't exist restarting"
+          },
+          "triggerEnable": {
+            "target": "cnv_frontline_t2_restart"
+          }
+        }
+      },
+      "cnv_frontline_t2_check_army": {
+        "is_enabled": false,
+        "comments": "",
+        "props": {
+          "actionsType": "PERFORM_ONE_BY_ONE",
+          "conditionsType": "ALL",
+          "enableAfterComplete": false
+        },
+        "events": {
+          "periodicEvent": {
+            "time": 0.1
+          }
+        },
+        "conditions": {
+          "varCompareInt": {
+            "var_value": "@cnv_frontline_t2_army_var_name",
+            "value": 1,
+            "comparasion_func": "equal"
+          },
+          "unitWhenInArea": {
+            "math": "2D",
+            "object_type": "isActive",
+            "object_marking": 0,
+            "object_var_name": "",
+            "object_var_comp_op": "equal",
+            "check_objects": "any",
+            "object": "cnv_t2_all_convoys_squad",
+            "target": "@cnv_frontline_t2_cur_name"
+          }
+        },
+        "actions": [
+          {
+            "comment": {
+              "value": "there is convoys units in area but zone is hostile"
+            }
+          },
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "comment": {
+              "value": ""
+            }
+          },
+          {
+            "unitMark": {
+              "target_marking": 4,
+              "target": "cnv_t2_all_convoys_squad",
+              "useForTriggerFiltered": true
+            }
+          },
+          {
+            "unitPutToSleep": {
+              "target": "cnv_t2_all_convoys_squad",
+              "useForTriggerFiltered": true
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_t2_move_bridge_check"
+            }
+          },
+          {
+            "triggerEnable": {
+              "target": "cnv_frontline_t2_rotator"
+            }
+          },
+          {
+            "wait": {
+              "time": 5.0
+            }
+          }
+        ],
+        "else_actions": {
+          "comment": {
+            "value": ""
+          },
+          "triggerEnable": {
+            "target": "cnv_frontline_t2_rotator"
+          }
+        }
+      }
     }
   },
   "mission_objectives": {
@@ -19881,7 +20500,13 @@
     "cnv_row_05": 0,
     "cnv_row_06": 0,
     "cnv_row_07": 0,
-    "cnv_game_mode": "pvp"
+    "cnv_game_mode": "pvp",
+    "cnv_frontline_t1_cur_idx": 0,
+    "cnv_frontline_t2_cur_idx": 0,
+    "cnv_frontline_t1_cur_name": "",
+    "cnv_frontline_t2_cur_name": "",
+    "cnv_frontline_t1_army_var_name": "",
+    "cnv_frontline_t2_army_var_name": ""
   },
   "dialogs": [],
   "airfields": [],

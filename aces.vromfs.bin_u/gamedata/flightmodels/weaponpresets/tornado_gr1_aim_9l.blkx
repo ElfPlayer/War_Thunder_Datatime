@@ -7,7 +7,7 @@
   },
   {
     "Weapon": {
-      "slot": 8,
+      "slot": 10,
       "preset": "aim_9l_default"
     }
   }

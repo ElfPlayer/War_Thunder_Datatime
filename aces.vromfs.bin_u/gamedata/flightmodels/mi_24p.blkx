@@ -170,18 +170,18 @@
         "hp": 20.0
       }
     },
-    "steel_tank_m": {
+    "steel_tank_s": {
       "tank1_dm": {
-        "hp": 75.5
+        "hp": 76.4
       },
       "tank2_dm": {
-        "hp": 75.5
+        "hp": 80.5
       },
       "tank3_dm": {
-        "hp": 75.5
+        "hp": 80.5
       },
       "tank4_dm": {
-        "hp": 75.5
+        "hp": 80.5
       }
     }
   },
@@ -878,13 +878,6 @@
         },
         {
           "onHit": {
-            "fire": 0.005,
-            "leak": 0.3
-          }
-        },
-        {
-          "onHit": {
-            "damage": 3.0,
             "fire": 0.01,
             "leak": 0.5
           }
@@ -898,31 +891,38 @@
         },
         {
           "onHit": {
+            "damage": 50.0,
+            "fire": 0.5,
+            "leak": 0.9
+          }
+        },
+        {
+          "onHit": {
             "damage": 80.0,
             "expl": 0.5,
-            "fire": 0.4,
+            "fire": 0.5,
             "leak": 0.9
           }
         },
         {
           "onKill": {
-            "fire": 3.0,
-            "leak": 12.0,
-            "nothing": 85.0
+            "fire": 1.0,
+            "leak": 9.0,
+            "nothing": 90.0
           }
         },
         {
           "onKill": {
-            "damage": 50.0,
-            "fire": 45.0,
+            "damage": 30.0,
+            "fire": 5.0,
             "leak": 25.0
           }
         },
         {
           "onKill": {
-            "damage": 80.0,
+            "damage": 50.0,
             "fire": 50.0,
-            "leak": 20.0
+            "leak": 30.0
           }
         }
       ]
@@ -934,13 +934,6 @@
         },
         {
           "onHit": {
-            "fire": 0.005,
-            "leak": 0.3
-          }
-        },
-        {
-          "onHit": {
-            "damage": 3.0,
             "fire": 0.01,
             "leak": 0.5
           }
@@ -954,31 +947,38 @@
         },
         {
           "onHit": {
+            "damage": 50.0,
+            "fire": 0.5,
+            "leak": 0.9
+          }
+        },
+        {
+          "onHit": {
             "damage": 80.0,
             "expl": 0.5,
-            "fire": 0.4,
+            "fire": 0.5,
             "leak": 0.9
           }
         },
         {
           "onKill": {
-            "fire": 3.0,
-            "leak": 12.0,
-            "nothing": 85.0
+            "fire": 1.0,
+            "leak": 9.0,
+            "nothing": 90.0
           }
         },
         {
           "onKill": {
-            "damage": 50.0,
-            "fire": 45.0,
+            "damage": 30.0,
+            "fire": 5.0,
             "leak": 25.0
           }
         },
         {
           "onKill": {
-            "damage": 80.0,
+            "damage": 50.0,
             "fire": 50.0,
-            "leak": 20.0
+            "leak": 30.0
           }
         }
       ]
@@ -990,13 +990,6 @@
         },
         {
           "onHit": {
-            "fire": 0.005,
-            "leak": 0.3
-          }
-        },
-        {
-          "onHit": {
-            "damage": 3.0,
             "fire": 0.01,
             "leak": 0.5
           }
@@ -1010,31 +1003,38 @@
         },
         {
           "onHit": {
+            "damage": 50.0,
+            "fire": 0.5,
+            "leak": 0.9
+          }
+        },
+        {
+          "onHit": {
             "damage": 80.0,
             "expl": 0.5,
-            "fire": 0.4,
+            "fire": 0.5,
             "leak": 0.9
           }
         },
         {
           "onKill": {
-            "fire": 3.0,
-            "leak": 12.0,
-            "nothing": 85.0
+            "fire": 1.0,
+            "leak": 9.0,
+            "nothing": 90.0
           }
         },
         {
           "onKill": {
-            "damage": 50.0,
-            "fire": 45.0,
+            "damage": 30.0,
+            "fire": 5.0,
             "leak": 25.0
           }
         },
         {
           "onKill": {
-            "damage": 80.0,
+            "damage": 50.0,
             "fire": 50.0,
-            "leak": 20.0
+            "leak": 30.0
           }
         }
       ]
@@ -1046,13 +1046,6 @@
         },
         {
           "onHit": {
-            "fire": 0.005,
-            "leak": 0.3
-          }
-        },
-        {
-          "onHit": {
-            "damage": 3.0,
             "fire": 0.01,
             "leak": 0.5
           }
@@ -1066,31 +1059,38 @@
         },
         {
           "onHit": {
+            "damage": 50.0,
+            "fire": 0.5,
+            "leak": 0.9
+          }
+        },
+        {
+          "onHit": {
             "damage": 80.0,
             "expl": 0.5,
-            "fire": 0.4,
+            "fire": 0.5,
             "leak": 0.9
           }
         },
         {
           "onKill": {
-            "fire": 3.0,
-            "leak": 12.0,
-            "nothing": 85.0
+            "fire": 1.0,
+            "leak": 9.0,
+            "nothing": 90.0
           }
         },
         {
           "onKill": {
-            "damage": 50.0,
-            "fire": 45.0,
+            "damage": 30.0,
+            "fire": 5.0,
             "leak": 25.0
           }
         },
         {
           "onKill": {
-            "damage": 80.0,
+            "damage": 50.0,
             "fire": 50.0,
-            "leak": 20.0
+            "leak": 30.0
           }
         }
       ]
@@ -1653,10 +1653,10 @@
       "zoomInFov": 7.37
     },
     {
-      "sightInFov": 4.91
+      "sightInFov": 7.37
     },
     {
-      "sightOutFov": -1.0
+      "sightOutFov": 22.46
     },
     {
       "sightFov": 5.5

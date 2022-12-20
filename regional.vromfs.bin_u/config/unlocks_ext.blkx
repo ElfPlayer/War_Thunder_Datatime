@@ -1,55 +1,6 @@
 [
   {
     "unlockable": {
-      "id": "2_22_youtubers_packs_activate",
-      "type": "challenge",
-      "hidden": true
-    }
-  },
-  {
-    "unlockable": {
-      "id": "2_22_youtubers_packs_activate_1",
-      "userLogId": "2_22_youtubers_packs_activate_trophy_1",
-      "type": "trophy",
-      "amount_trophies": 10,
-      "hidden": true,
-      "mode": {
-        "type": "char_unlocks",
-        "num": 1,
-        "unlock": "2_22_youtubers_packs_activate"
-      }
-    }
-  },
-  {
-    "unlockable": {
-      "id": "2_22_youtubers_packs_activate_2",
-      "userLogId": "2_22_youtubers_packs_activate_trophy_2",
-      "type": "trophy",
-      "amount_trophies": 10,
-      "hidden": true,
-      "mode": {
-        "type": "char_unlocks",
-        "num": 1,
-        "unlock": "2_22_youtubers_packs_activate"
-      }
-    }
-  },
-  {
-    "unlockable": {
-      "id": "2_22_youtubers_packs_activate_3",
-      "userLogId": "2_22_youtubers_packs_activate_trophy_3",
-      "type": "trophy",
-      "amount_trophies": 10,
-      "hidden": true,
-      "mode": {
-        "type": "char_unlocks",
-        "num": 1,
-        "unlock": "2_22_youtubers_packs_activate"
-      }
-    }
-  },
-  {
-    "unlockable": {
       "id": "gift_booster_rp_20_5mp_after_5mp_trophy",
       "userLogId": "booster_rp_20_5mp_unlock_trophy",
       "type": "trophy",
@@ -25208,7 +25159,7 @@
         {
           "condition": {
             "type": "char_unlocked",
-            "unlock": "hidden_a_new_unlock"
+            "unlock": "starter_variable_0"
           }
         },
         {
@@ -25295,7 +25246,7 @@
         {
           "condition": {
             "type": "char_unlocked",
-            "unlock": "hidden_b_new_unlock"
+            "unlock": "starter_variable_2"
           }
         },
         {
@@ -25734,6 +25685,30 @@
           }
         }
       ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_swing_wing",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_phantom_menace",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_pioneering",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -28584,6 +28559,22 @@
   {
     "unlockable": {
       "id": "title_10th_anniversary",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_defender_of_pandora",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_conqueror_of_pandora",
       "type": "title",
       "chapter": "title",
       "hideUntilUnlocked": true
@@ -50171,6 +50162,24 @@
     "unlockable": {
       "id": "gift_booster_shop_wp_75_10mp_trophy",
       "userLogId": "booster_shop_wp_75_10mp_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_booster_shop_wp_150_10mp_trophy",
+      "userLogId": "booster_shop_wp_150_10mp_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_booster_shop_rp_150_10mp_trophy",
+      "userLogId": "booster_shop_rp_150_10mp_trophy",
       "type": "trophy",
       "amount_trophies": 1,
       "hidden": true
@@ -121507,6 +121516,5376 @@
           "hostCondition": {
             "type": "operationMap",
             "operationMap": "el_alamein_wwmap"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_defender_of_pandora_trophy_gift",
+      "userLogId": "title_defender_of_pandora_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "pandoras_box",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 10000000
+        },
+        {
+          "hostCondition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "gameModeInfoString",
+            "name": "name",
+            "exactName": false,
+            "value": "avatar_2022",
+            "locParamName": "conditions/missionType",
+            "locValuePrefix": "missions/"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-16 11:00:00",
+            "endDate": "2022-12-19 08:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_conqueror_of_pandora_trophy_gift",
+      "userLogId": "title_conqueror_of_pandora_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "pandoras_box",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 20000000
+        },
+        {
+          "hostCondition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "gameModeInfoString",
+            "name": "name",
+            "exactName": false,
+            "value": "avatar_2022",
+            "locParamName": "conditions/missionType",
+            "locValuePrefix": "missions/"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-16 11:00:00",
+            "endDate": "2022-12-19 08:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "pandoras_box_trophy_gift_1",
+      "userLogId": "pandoras_box_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "pandoras_box",
+      "locId": "pandoras_box_trophy_gift/name",
+      "locDescId": "pandoras_box_trophy_gift/desc",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 6000000
+        },
+        {
+          "hostCondition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "gameModeInfoString",
+            "name": "name",
+            "exactName": false,
+            "value": "avatar_2022",
+            "locParamName": "conditions/missionType",
+            "locValuePrefix": "missions/"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-16 11:00:00",
+            "endDate": "2022-12-19 08:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "pandoras_box_trophy_gift_2",
+      "userLogId": "pandoras_box_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "pandoras_box",
+      "locId": "pandoras_box_trophy_gift/name",
+      "locDescId": "pandoras_box_trophy_gift/desc",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 12000000
+        },
+        {
+          "hostCondition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "gameModeInfoString",
+            "name": "name",
+            "exactName": false,
+            "value": "avatar_2022",
+            "locParamName": "conditions/missionType",
+            "locValuePrefix": "missions/"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-16 11:00:00",
+            "endDate": "2022-12-19 08:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "pandoras_box_trophy_gift_3",
+      "userLogId": "pandoras_box_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "pandoras_box",
+      "locId": "pandoras_box_trophy_gift/name",
+      "locDescId": "pandoras_box_trophy_gift/desc",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 18000000
+        },
+        {
+          "hostCondition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "gameModeInfoString",
+            "name": "name",
+            "exactName": false,
+            "value": "avatar_2022",
+            "locParamName": "conditions/missionType",
+            "locValuePrefix": "missions/"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-16 11:00:00",
+            "endDate": "2022-12-19 08:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "pandoras_box_trophy_gift_4",
+      "userLogId": "pandoras_box_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "pandoras_box",
+      "locId": "pandoras_box_trophy_gift/name",
+      "locDescId": "pandoras_box_trophy_gift/desc",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 24000000
+        },
+        {
+          "hostCondition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "gameModeInfoString",
+            "name": "name",
+            "exactName": false,
+            "value": "avatar_2022",
+            "locParamName": "conditions/missionType",
+            "locValuePrefix": "missions/"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-16 11:00:00",
+            "endDate": "2022-12-19 08:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "pandoras_box_trophy_gift_5",
+      "userLogId": "pandoras_box_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "chapter": "pandoras_box",
+      "locId": "pandoras_box_trophy_gift/name",
+      "locDescId": "pandoras_box_trophy_gift/desc",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 100500000
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 30000000
+        },
+        {
+          "hostCondition": {
+            "type": "customOnline"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "gameModeInfoString",
+            "name": "name",
+            "exactName": false,
+            "value": "avatar_2022",
+            "locParamName": "conditions/missionType",
+            "locValuePrefix": "missions/"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-16 11:00:00",
+            "endDate": "2022-12-19 08:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_late_298d",
+      "chapter": "winter_quest",
+      "userLogId": "late_298d_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 4
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_t_80um2_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 8
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "tornado_ids_de_mfg_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 8
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_cruiser_des_moines_class_newport_news_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 8
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "icon": "!ui/images/chests/items_box7.png",
+      "lockStyle": "lock",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 8
+        },
+        {
+          "unlock": "get_winter_quest_2023_trophy_air_1"
+        },
+        {
+          "unlock": "get_winter_quest_2023_trophy_air_2"
+        },
+        {
+          "unlock": "get_winter_quest_2023_trophy_tank_1"
+        },
+        {
+          "unlock": "get_winter_quest_2023_trophy_tank_2"
+        },
+        {
+          "unlock": "get_winter_quest_2023_trophy_tank_3"
+        },
+        {
+          "unlock": "get_winter_quest_2023_trophy_ship_1"
+        },
+        {
+          "unlock": "get_winter_quest_2023_trophy_ship_2"
+        },
+        {
+          "unlock": "get_winter_quest_2023_trophy_ship_3"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_winter_2023_air_decal_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "icon": "!ui/gameuiskin#item_decal.png",
+      "lockStyle": "lock",
+      "mode": {
+        "type": "char_unlocks",
+        "num": 1,
+        "unlock": "gift_winter_2023_air_decal_trophy_1"
+      }
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_winter_2023_tank_decal_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "icon": "!ui/gameuiskin#item_decal.png",
+      "lockStyle": "lock",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 2
+        },
+        {
+          "unlock": "gift_winter_2023_tank_decal_trophy_1"
+        },
+        {
+          "unlock": "gift_winter_2023_tank_decal_trophy_2"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_winter_2023_ship_decal_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "icon": "!ui/gameuiskin#item_decal.png",
+      "lockStyle": "lock",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 2
+        },
+        {
+          "unlock": "gift_winter_2023_ship_decal_trophy_1"
+        },
+        {
+          "unlock": "gift_winter_2023_ship_decal_trophy_2"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_almighty_key_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "icon": "https://static-ggc.gaijin.net/events/silver_key_winter_2022.png",
+      "lockStyle": "lock",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 3
+        },
+        {
+          "unlock": "gift_almighty_key_air_1"
+        },
+        {
+          "unlock": "gift_almighty_key_tank_1"
+        },
+        {
+          "unlock": "gift_almighty_key_ship_1"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_late_298d_skin_trophy",
+      "icon": "!ui/gameuiskin#item_skin.png",
+      "lockStyle": "lock",
+      "userLogId": "late_298d_skin_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 5
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_cardicon_newyear_23_trophy",
+      "userLogId": "cardicon_newyear_23_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 6
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_cuckoo_watch_trophy",
+      "userLogId": "cuckoo_watch_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 6
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_decor_christmas_mill_trophy",
+      "userLogId": "decor_christmas_mill_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 6
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_ussr_t_80um2_skin_trophy",
+      "icon": "!ui/gameuiskin#item_skin.png",
+      "lockStyle": "lock",
+      "userLogId": "ussr_t_80um2_skin_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 9
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_tornado_ids_de_mfg_skin_trophy",
+      "icon": "!ui/gameuiskin#item_skin.png",
+      "lockStyle": "lock",
+      "userLogId": "tornado_ids_de_mfg_skin_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 9
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_us_cruiser_des_moines_class_newport_news_skin_trophy",
+      "icon": "!ui/gameuiskin#item_skin.png",
+      "lockStyle": "lock",
+      "userLogId": "us_cruiser_des_moines_class_newport_news_skin_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 9
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "ussr_t_80um2_coupon_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "icon": "https://static-ggc.gaijin.net/items/coupon_upgrade_q4.png",
+      "lockStyle": "lock",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "tornado_ids_de_mfg_coupon_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "icon": "https://static-ggc.gaijin.net/items/coupon_upgrade_q4.png",
+      "lockStyle": "lock",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "us_cruiser_des_moines_class_newport_news_coupon_visible",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "icon": "https://static-ggc.gaijin.net/items/coupon_upgrade_q4.png",
+      "lockStyle": "lock",
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_air_1",
+      "userLogId": "winter_quest_2023_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 1
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_air_2",
+      "userLogId": "winter_quest_2023_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 7
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_tank_1",
+      "userLogId": "winter_quest_2023_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 1
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_tank_2",
+      "userLogId": "winter_quest_2023_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 5
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_tank_3",
+      "userLogId": "winter_quest_2023_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 7
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_ship_1",
+      "userLogId": "winter_quest_2023_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 1
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_ship_2",
+      "userLogId": "winter_quest_2023_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 5
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "get_winter_quest_2023_trophy_ship_3",
+      "userLogId": "winter_quest_2023_trophy",
+      "type": "trophy",
+      "amount_trophies": 1,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 7
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_winter_2023_air_decal_trophy_1",
+      "locId": "gift_winter_2023_air_decal_trophy_1/name",
+      "type": "inventory",
+      "userLogId": "20306",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 2
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_winter_2023_tank_decal_trophy_1",
+      "locId": "gift_winter_2023_tank_decal_trophy_1/name",
+      "type": "inventory",
+      "userLogId": "200409",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 2
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_winter_2023_tank_decal_trophy_2",
+      "locId": "gift_winter_2023_tank_decal_trophy_2/name",
+      "type": "inventory",
+      "userLogId": "200409",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 4
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_winter_2023_ship_decal_trophy_1",
+      "locId": "gift_winter_2023_ship_decal_trophy_1/name",
+      "type": "inventory",
+      "userLogId": "200408",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 2
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_winter_2023_ship_decal_trophy_2",
+      "locId": "gift_winter_2023_ship_decal_trophy_2/name",
+      "type": "inventory",
+      "userLogId": "200408",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 4
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_almighty_key_air_1",
+      "locId": "gift_almighty_key_air_1/name",
+      "type": "inventory",
+      "userLogId": "216020",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 3
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_almighty_key_tank_1",
+      "locId": "gift_almighty_key_tank_1/name",
+      "type": "inventory",
+      "userLogId": "216020",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 3
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_almighty_key_ship_1",
+      "locId": "gift_almighty_key_ship_1/name",
+      "type": "inventory",
+      "userLogId": "216020",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 3
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_tornado_ids_de_mfg_coupon",
+      "type": "inventory",
+      "userLogId": "50203",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 8
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_tornado_ids_de_mfg_tradable_coupon",
+      "type": "inventory",
+      "userLogId": "215036",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_ussr_t_80um2_coupon",
+      "type": "inventory",
+      "userLogId": "50205",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 8
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_ussr_t_80um2_tradable_coupon",
+      "type": "inventory",
+      "userLogId": "215034",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_us_cruiser_des_moines_class_newport_news_coupon",
+      "type": "inventory",
+      "userLogId": "50207",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 8
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_us_cruiser_des_moines_class_newport_news_tradable_coupon",
+      "type": "inventory",
+      "userLogId": "215038",
+      "hidden": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_almighty_key_air_x3",
+      "type": "inventory",
+      "userLogId": "200410",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_air_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_air_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_air_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_almighty_key_tank_х3",
+      "type": "inventory",
+      "userLogId": "200410",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_tank_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_tank_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "gift_almighty_key_ship_х3",
+      "type": "inventory",
+      "userLogId": "200410",
+      "loggingEnabled": true,
+      "hidden": true,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "char_unlocks"
+        },
+        {
+          "num": 10
+        },
+        {
+          "unlock": "20_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "22_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "24_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "26_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "28_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "30_12_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "01_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "03_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "05_01_winter_2023_ship_stage"
+        },
+        {
+          "unlock": "07_01_winter_2023_ship_stage"
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "07_01_winter_2023_air_stage",
+      "locId": "marathon_air_stage_10/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-07 11:00:00",
+            "endDate": "2023-01-09 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "07_01_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_10/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-07 11:00:00",
+            "endDate": "2023-01-09 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "07_01_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_10/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-07 11:00:00",
+            "endDate": "2023-01-09 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_01_winter_2023_air_stage",
+      "locId": "marathon_air_stage_9/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-05 11:00:00",
+            "endDate": "2023-01-07 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_01_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_9/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-05 11:00:00",
+            "endDate": "2023-01-07 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "05_01_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_9/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-05 11:00:00",
+            "endDate": "2023-01-07 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "03_01_winter_2023_air_stage",
+      "locId": "marathon_air_stage_8/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-03 11:00:00",
+            "endDate": "2023-01-05 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "03_01_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_8/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-03 11:00:00",
+            "endDate": "2023-01-05 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "03_01_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_8/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-03 11:00:00",
+            "endDate": "2023-01-05 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "01_01_winter_2023_air_stage",
+      "locId": "marathon_air_stage_7/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-01 11:00:00",
+            "endDate": "2023-01-03 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "01_01_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_7/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-01 11:00:00",
+            "endDate": "2023-01-03 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "01_01_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_7/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2023-01-01 11:00:00",
+            "endDate": "2023-01-03 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "30_12_winter_2023_air_stage",
+      "locId": "marathon_air_stage_6/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-30 11:00:00",
+            "endDate": "2023-01-01 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "30_12_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_6/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-30 11:00:00",
+            "endDate": "2023-01-01 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "30_12_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_6/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-30 11:00:00",
+            "endDate": "2023-01-01 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "28_12_winter_2023_air_stage",
+      "locId": "marathon_air_stage_5/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-28 11:00:00",
+            "endDate": "2022-12-30 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "28_12_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_5/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-28 11:00:00",
+            "endDate": "2022-12-30 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "28_12_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_5/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-28 11:00:00",
+            "endDate": "2022-12-30 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "26_12_winter_2023_air_stage",
+      "locId": "marathon_air_stage_4/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-26 11:00:00",
+            "endDate": "2022-12-28 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "26_12_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_4/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-26 11:00:00",
+            "endDate": "2022-12-28 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "26_12_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_4/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-26 11:00:00",
+            "endDate": "2022-12-28 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "24_12_winter_2023_air_stage",
+      "locId": "marathon_air_stage_3/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-24 11:00:00",
+            "endDate": "2022-12-26 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "24_12_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_3/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-24 11:00:00",
+            "endDate": "2022-12-26 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "24_12_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_3/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-24 11:00:00",
+            "endDate": "2022-12-26 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "22_12_winter_2023_air_stage",
+      "locId": "marathon_air_stage_2/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-22 11:00:00",
+            "endDate": "2022-12-24 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "22_12_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_2/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-22 11:00:00",
+            "endDate": "2022-12-24 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "22_12_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_2/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-22 11:00:00",
+            "endDate": "2022-12-24 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "20_12_winter_2023_air_stage",
+      "locId": "marathon_air_stage_1/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_air",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode0": 1.0
+        },
+        {
+          "mulMode1": 1.4
+        },
+        {
+          "mulMode2": 3.0
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "air_arcade"
+            },
+            {
+              "value": "air_realistic"
+            },
+            {
+              "value": "air_simulation_timeDelay_battles"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-20 11:00:00",
+            "endDate": "2022-12-22 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "20_12_winter_2023_tank_stage",
+      "locId": "marathon_tank_stage_1/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_tank",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode3": 0.93
+        },
+        {
+          "mulMode4": 1.33
+        },
+        {
+          "mulMode5": 1.8
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.8
+        },
+        {
+          "mulRank4": 0.9
+        },
+        {
+          "mulRank5": 1.0
+        },
+        {
+          "mulRank6": 1.1
+        },
+        {
+          "mulRank7": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": false
+            },
+            {
+              "value": "tank_event_in_random_battles_arcade"
+            },
+            {
+              "value": "tank_event_in_random_battles_historical"
+            },
+            {
+              "value": "tank_random_battles_simulation"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-20 11:00:00",
+            "endDate": "2022-12-22 11:30:00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "unlockable": {
+      "id": "20_12_winter_2023_ship_stage",
+      "locId": "marathon_ship_stage_1/name",
+      "type": "achievement",
+      "chapter": "winter_quest",
+      "group": "tasks_for_ship",
+      "costGold": 999,
+      "visibleDays": 1.0,
+      "visibleDaysAfter": 30.0,
+      "showInDesc": true,
+      "mode": [
+        {
+          "type": "totalMissionScore"
+        },
+        {
+          "score": 1460065408
+        },
+        {
+          "chardType": "char_static_progress"
+        },
+        {
+          "num": 40000000
+        },
+        {
+          "mulMode6": 1.9
+        },
+        {
+          "mulMode7": 2.2
+        },
+        {
+          "mulRank1": 0.8
+        },
+        {
+          "mulRank2": 0.8
+        },
+        {
+          "mulRank3": 0.9
+        },
+        {
+          "mulRank4": 1.0
+        },
+        {
+          "mulRank5": 1.2
+        },
+        {
+          "hostCondition": {
+            "type": "online"
+          }
+        },
+        {
+          "hostCondition": {
+            "type": "playerUnitRank",
+            "minRank": 3,
+            "minRankForEvent": 1,
+            "inSession": true,
+            "inSessionAnd": false
+          }
+        },
+        {
+          "hostCondition": [
+            {
+              "type": "gameModeInfoString"
+            },
+            {
+              "name": "name"
+            },
+            {
+              "exactName": true
+            },
+            {
+              "value": "ship_event_in_random_battles_arcade"
+            },
+            {
+              "value": "ship_event_in_random_battles_realistic"
+            },
+            {
+              "locParamName": "conditions/missionType"
+            },
+            {
+              "locValuePrefix": "missions/short/"
+            }
+          ]
+        },
+        {
+          "hostCondition": {
+            "type": "timeRange",
+            "beginDate": "2022-12-20 11:00:00",
+            "endDate": "2022-12-22 11:30:00"
           }
         }
       ]
