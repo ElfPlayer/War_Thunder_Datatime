@@ -40401,46 +40401,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "killedPlayersScore"
-        },
-        {
-          "num": 40
-        },
-        {
-          "mulArcade": 1
-        },
-        {
-          "mulRealistic": 2
-        },
-        {
-          "mulHardcore": 2
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderUnitRank",
-            "minRank": 2
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderType",
-            "unitType": "aircraft"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_britain"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40450,46 +40411,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "missionsPlayedScore"
-        },
-        {
-          "num": 5
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerUnitRank",
-            "minRank": 2,
-            "inSession": true,
-            "inSessionAnd": false
-          }
-        },
-        {
-          "condition": {
-            "type": "minStat",
-            "value": [2000,2000,2000],
-            "stat": "score"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerType",
-            "unitType": "aircraft"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_italy"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40499,44 +40421,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "awardDamage"
-        },
-        {
-          "num": 50000
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderUnitRank",
-            "minRank": 2
-          }
-        },
-        {
-          "condition": [
-            {
-              "type": "offenderType"
-            },
-            {
-              "unitType": "ship"
-            },
-            {
-              "unitType": "boat"
-            }
-          ]
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_usa"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40546,40 +40431,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "missionsPlayedScore"
-        },
-        {
-          "num": 5
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerUnitRank",
-            "minRank": 2,
-            "inSession": true,
-            "inSessionAnd": false
-          }
-        },
-        {
-          "condition": {
-            "type": "minStat",
-            "value": [3,3,3],
-            "stat": "place"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerType",
-            "unitType": "tank"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40589,46 +40441,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "killedPlayersScore"
-        },
-        {
-          "num": 50
-        },
-        {
-          "mulArcade": 1
-        },
-        {
-          "mulRealistic": 2
-        },
-        {
-          "mulHardcore": 2
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderUnitRank",
-            "minRank": 2
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderType",
-            "unitType": "tank"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_china"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40638,52 +40451,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "killedPlayersScore"
-        },
-        {
-          "num": 50
-        },
-        {
-          "mulArcade": 1
-        },
-        {
-          "mulRealistic": 2
-        },
-        {
-          "mulHardcore": 2
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "targetType",
-            "unitType": "tank"
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderUnitRank",
-            "minRank": 2
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderType",
-            "unitType": "aircraft"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_germany"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40693,46 +40461,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "missionsPlayedScore"
-        },
-        {
-          "num": 7
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerUnitRank",
-            "minRank": 2,
-            "inSession": true,
-            "inSessionAnd": false
-          }
-        },
-        {
-          "condition": {
-            "type": "minStat",
-            "value": [3,3,3],
-            "stat": "place"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerType",
-            "unitType": "tank"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_ussr"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40742,46 +40471,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "killedPlayersScore"
-        },
-        {
-          "num": 40
-        },
-        {
-          "mulArcade": 1
-        },
-        {
-          "mulRealistic": 2
-        },
-        {
-          "mulHardcore": 2
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderUnitRank",
-            "minRank": 2
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderType",
-            "unitType": "aircraft"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_japan"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40791,46 +40481,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "missionsPlayedScore"
-        },
-        {
-          "num": 5
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerUnitRank",
-            "minRank": 2,
-            "inSession": true,
-            "inSessionAnd": false
-          }
-        },
-        {
-          "condition": {
-            "type": "minStat",
-            "value": [2000,2000,2000],
-            "stat": "score"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerType",
-            "unitType": "aircraft"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_france"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -40840,46 +40491,7 @@
       "chapter": "decals",
       "group": "weekly",
       "hideForLang": "HChinese",
-      "mode": [
-        {
-          "type": "killedPlayersScore"
-        },
-        {
-          "num": 40
-        },
-        {
-          "mulArcade": 1
-        },
-        {
-          "mulRealistic": 2
-        },
-        {
-          "mulHardcore": 2
-        },
-        {
-          "condition": {
-            "type": "online"
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderUnitRank",
-            "minRank": 2
-          }
-        },
-        {
-          "condition": {
-            "type": "offenderType",
-            "unitType": "aircraft"
-          }
-        },
-        {
-          "condition": {
-            "type": "playerCountry",
-            "country": "country_sweden"
-          }
-        }
-      ]
+      "hideUntilUnlocked": true
     }
   },
   {
@@ -87714,6 +87326,7 @@
       "type": "trophy",
       "amount_trophies": 1,
       "chapter": "new_year",
+      "costGold": 499,
       "mode": [
         {
           "type": "killedPlayersScore"
@@ -87765,6 +87378,7 @@
       "type": "trophy",
       "amount_trophies": 1,
       "chapter": "new_year",
+      "costGold": 499,
       "mode": [
         {
           "type": "awardDamage"
@@ -101523,9 +101137,6 @@
               "class": "us_m4a3e2_sherman_jumbo_cobra_king"
             },
             {
-              "class": "us_m4a3e2_76w_sherman_jumbo"
-            },
-            {
               "class": "us_m4a2_sherman"
             },
             {
@@ -101539,12 +101150,6 @@
             },
             {
               "class": "us_m4a2_76w_sherman"
-            },
-            {
-              "class": "us_m8a1"
-            },
-            {
-              "class": "us_m8_greyhound"
             },
             {
               "class": "p-47d"
@@ -101562,25 +101167,10 @@
               "class": "p-51d-20-na"
             },
             {
-              "class": "a-26b_10"
+              "class": "b_26b_c"
             },
             {
-              "class": "a-26b"
-            },
-            {
-              "class": "germ_sdkfz_234_1"
-            },
-            {
-              "class": "germ_sdkfz_234_2"
-            },
-            {
-              "class": "germ_sdkfz_234_2_td"
-            },
-            {
-              "class": "germ_sdkfz_234_3"
-            },
-            {
-              "class": "germ_sdkfz_234_4"
+              "class": "fr_m3a3_stuart"
             },
             {
               "class": "germ_sdkfz_251_21"
@@ -101616,12 +101206,6 @@
               "class": "germ_panzerbefelhswagen_IV_ausf_J"
             },
             {
-              "class": "germ_pzkpfw_VI_ausf_b_tiger_IIp"
-            },
-            {
-              "class": "germ_pzkpfw_VI_ausf_b_tiger_IIh"
-            },
-            {
               "class": "germ_pzkpfw_V_ausf_d_panther"
             },
             {
@@ -101638,9 +101222,6 @@
             },
             {
               "class": "germ_panzerjager_tiger"
-            },
-            {
-              "class": "germ_sturmmorser_sturmtiger"
             },
             {
               "class": "bf-109g-6"
