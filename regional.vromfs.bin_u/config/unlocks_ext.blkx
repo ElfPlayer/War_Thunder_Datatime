@@ -25710,6 +25710,38 @@
   },
   {
     "unlockable": {
+      "id": "title_fanboy",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_connoisseur",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_treasure_hunter",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
+      "id": "title_shopaholic",
+      "type": "title",
+      "chapter": "title",
+      "hideUntilUnlocked": true
+    }
+  },
+  {
+    "unlockable": {
       "id": "title_swing_wing",
       "type": "title",
       "chapter": "title",
